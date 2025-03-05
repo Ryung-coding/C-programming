@@ -1,0 +1,10 @@
+C:\Users\COM\Desktop\c#_ws\1week\1week_WindowsFormsApp\1week_WindowsFormsApp\bin\Debug\1week_WindowsFormsApp.exe.config
+C:\Users\COM\Desktop\c#_ws\1week\1week_WindowsFormsApp\1week_WindowsFormsApp\bin\Debug\1week_WindowsFormsApp.exe
+C:\Users\COM\Desktop\c#_ws\1week\1week_WindowsFormsApp\1week_WindowsFormsApp\bin\Debug\1week_WindowsFormsApp.pdb
+C:\Users\COM\Desktop\c#_ws\1week\1week_WindowsFormsApp\1week_WindowsFormsApp\obj\Debug\1week_WindowsFormsApp.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\c#_ws\1week\1week_WindowsFormsApp\1week_WindowsFormsApp\obj\Debug\_1week_WindowsFormsApp.Form1.resources
+C:\Users\COM\Desktop\c#_ws\1week\1week_WindowsFormsApp\1week_WindowsFormsApp\obj\Debug\_1week_WindowsFormsApp.Properties.Resources.resources
+C:\Users\COM\Desktop\c#_ws\1week\1week_WindowsFormsApp\1week_WindowsFormsApp\obj\Debug\1week_WindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\c#_ws\1week\1week_WindowsFormsApp\1week_WindowsFormsApp\obj\Debug\1week_WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\c#_ws\1week\1week_WindowsFormsApp\1week_WindowsFormsApp\obj\Debug\1week_WindowsFormsApp.exe
+C:\Users\COM\Desktop\c#_ws\1week\1week_WindowsFormsApp\1week_WindowsFormsApp\obj\Debug\1week_WindowsFormsApp.pdb
