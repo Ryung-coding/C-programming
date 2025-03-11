@@ -16,5 +16,24 @@ namespace _2week
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a = 100;
+            double d = a;
+            Console.WriteLine(d);
+
+            double aa = 100;
+            int dd = (int)aa;
+            Console.WriteLine(dd);
+
+            double d_Max = double.MaxValue;
+            Console.WriteLine(d_Max);
+            int a_MMMMAX = (int)d_Max;
+            Console.WriteLine(a_MMMMAX);
+
+
+
+        }
     }
 }
