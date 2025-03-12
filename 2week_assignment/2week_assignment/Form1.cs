@@ -12,8 +12,9 @@ namespace _2week_assignment
 {
     public partial class Form1 : Form
     {
-        int dx = 2; int dy = 2;
+        int dx = 4; int dy = 1; 
         bool Flag_x = true; bool Flag_y = true;
+        int past_distance = 0;
 
         public Form1()
         {
@@ -30,11 +31,17 @@ namespace _2week_assignment
             pic_ball.Left = Flag_x == true ? pic_ball.Left + dx : pic_ball.Left - dx;
             pic_ball.Top = Flag_y == true ? pic_ball.Top + dy : pic_ball.Top - dy;
 
-
+            int distance = (int)Math.Sqrt(Math.Pow(this.ClientSize.Width / 2 - pic_ball.Left, 2)+ Math.Pow(this.ClientSize.Height / 2 - pic_ball.Top, 2));
+            pic_ball.BackColor = distance - past_distance > 0 ? Color.Blue : Color.Red;
+            past_distance = distance;
         }
 
         private void fast_radio_CheckedChanged(object sender, EventArgs e) { timer.Interval = 10;}
         private void slow_radio_CheckedChanged(object sender, EventArgs e) { timer.Interval = 50;}
 
+        private void pic_ball_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

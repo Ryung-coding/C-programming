@@ -49,11 +49,12 @@
             // pic_ball
             // 
             this.pic_ball.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.pic_ball.Location = new System.Drawing.Point(260, 225);
+            this.pic_ball.Location = new System.Drawing.Point(47, 96);
             this.pic_ball.Name = "pic_ball";
             this.pic_ball.Size = new System.Drawing.Size(57, 57);
             this.pic_ball.TabIndex = 2;
             this.pic_ball.TabStop = false;
+            this.pic_ball.Click += new System.EventHandler(this.pic_ball_Click);
             // 
             // timer
             // 

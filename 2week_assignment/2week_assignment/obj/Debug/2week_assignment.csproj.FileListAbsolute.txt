@@ -8,3 +8,13 @@ C:\Users\COM\Desktop\C-programming\2week_assignment\2week_assignment\obj\Debug\2
 C:\Users\COM\Desktop\C-programming\2week_assignment\2week_assignment\obj\Debug\2week_assignment.csproj.CoreCompileInputs.cache
 C:\Users\COM\Desktop\C-programming\2week_assignment\2week_assignment\obj\Debug\2week_assignment.exe
 C:\Users\COM\Desktop\C-programming\2week_assignment\2week_assignment\obj\Debug\2week_assignment.pdb
+C:\Users\Master\Desktop\C-programming\2week_assignment\2week_assignment\bin\Debug\2week_assignment.exe.config
+C:\Users\Master\Desktop\C-programming\2week_assignment\2week_assignment\bin\Debug\2week_assignment.exe
+C:\Users\Master\Desktop\C-programming\2week_assignment\2week_assignment\bin\Debug\2week_assignment.pdb
+C:\Users\Master\Desktop\C-programming\2week_assignment\2week_assignment\obj\Debug\2week_assignment.csproj.AssemblyReference.cache
+C:\Users\Master\Desktop\C-programming\2week_assignment\2week_assignment\obj\Debug\_2week_assignment.Form1.resources
+C:\Users\Master\Desktop\C-programming\2week_assignment\2week_assignment\obj\Debug\_2week_assignment.Properties.Resources.resources
+C:\Users\Master\Desktop\C-programming\2week_assignment\2week_assignment\obj\Debug\2week_assignment.csproj.GenerateResource.cache
+C:\Users\Master\Desktop\C-programming\2week_assignment\2week_assignment\obj\Debug\2week_assignment.csproj.CoreCompileInputs.cache
+C:\Users\Master\Desktop\C-programming\2week_assignment\2week_assignment\obj\Debug\2week_assignment.exe
+C:\Users\Master\Desktop\C-programming\2week_assignment\2week_assignment\obj\Debug\2week_assignment.pdb
