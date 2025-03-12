@@ -12,38 +12,29 @@ namespace _2week_assignment
 {
     public partial class Form1 : Form
     {
+        int dx = 2; int dy = 2;
+        bool Flag_x = true; bool Flag_y = true;
+
         public Form1()
         {
             InitializeComponent();
         }
-
-        int x_past = 0; int y_past = 0;
-
-
-        private void pic_draw_MouseMove(object sender, MouseEventArgs e)
+        
+        private void timer_Tick(object sender, EventArgs e)
         {
-            if (e.Button != MouseButtons.Left) return;
-            Graphics grp = pic_draw.CreateGraphics();
-            
-            Color col = Color.Brown;
-            
-            if (red.Checked) col = Color.Red;
-            if (green.Checked) col = Color.Green;
-            if (blue.Checked) col = Color.Blue;
+            if (this.ClientSize.Width - pic_ball.Width < pic_ball.Left) Flag_x = false;
+            if (this.ClientSize.Height - pic_ball.Height< pic_ball.Top) Flag_y = false;
+            if (pic_ball.Left < 0) Flag_x = true;
+            if (pic_ball.Top < 0) Flag_y = true;
 
-            Pen pen = new Pen(col);
-            // grp.DrawEllipse(pen, e.X, e.Y, 10, 10); -> 이러면 너무 이산적으로 그려진다 -> 그전과 이전을 선으로 이어보자
-            grp.DrawLine(pen, x_past, y_past, e.X, e.Y); 
-            x_past = e.X;
-            y_past = e.Y;
+            pic_ball.Left = Flag_x == true ? pic_ball.Left + dx : pic_ball.Left - dx;
+            pic_ball.Top = Flag_y == true ? pic_ball.Top + dy : pic_ball.Top - dy;
+
+
         }
 
-        private void pic_draw_MouseDown(object sender, MouseEventArgs e)
-        {
-            // 이런식으로 해야 시작 초기값에 대한 튐을 방지한다
-            // 이러면 초기값이 마우스를 누른 순간으로 되니 점프하는일이 없다
-            x_past = e.X; 
-            y_past = e.Y;
-        }
+        private void fast_radio_CheckedChanged(object sender, EventArgs e) { timer.Interval = 10;}
+        private void slow_radio_CheckedChanged(object sender, EventArgs e) { timer.Interval = 50;}
+
     }
 }

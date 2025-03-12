@@ -28,14 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.print_label = new System.Windows.Forms.Label();
-            this.pic_draw = new System.Windows.Forms.PictureBox();
-            this.green = new System.Windows.Forms.RadioButton();
-            this.blue = new System.Windows.Forms.RadioButton();
-            this.red = new System.Windows.Forms.RadioButton();
-            this.color_box = new System.Windows.Forms.GroupBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_draw)).BeginInit();
-            this.color_box.SuspendLayout();
+            this.pic_ball = new System.Windows.Forms.PictureBox();
+            this.timer = new System.Windows.Forms.Timer(this.components);
+            this.fast_radio = new System.Windows.Forms.RadioButton();
+            this.slow_radio = new System.Windows.Forms.RadioButton();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_ball)).BeginInit();
             this.SuspendLayout();
             // 
             // print_label
@@ -47,75 +46,58 @@
             this.print_label.Size = new System.Drawing.Size(0, 35);
             this.print_label.TabIndex = 1;
             // 
-            // pic_draw
+            // pic_ball
             // 
-            this.pic_draw.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.pic_draw.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pic_draw.Cursor = System.Windows.Forms.Cursors.Cross;
-            this.pic_draw.Location = new System.Drawing.Point(12, 12);
-            this.pic_draw.Name = "pic_draw";
-            this.pic_draw.Size = new System.Drawing.Size(475, 520);
-            this.pic_draw.TabIndex = 2;
-            this.pic_draw.TabStop = false;
-            this.pic_draw.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pic_draw_MouseDown);
-            this.pic_draw.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pic_draw_MouseMove);
+            this.pic_ball.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.pic_ball.Location = new System.Drawing.Point(260, 225);
+            this.pic_ball.Name = "pic_ball";
+            this.pic_ball.Size = new System.Drawing.Size(57, 57);
+            this.pic_ball.TabIndex = 2;
+            this.pic_ball.TabStop = false;
             // 
-            // green
+            // timer
             // 
-            this.green.AutoSize = true;
-            this.green.Location = new System.Drawing.Point(6, 40);
-            this.green.Name = "green";
-            this.green.Size = new System.Drawing.Size(55, 16);
-            this.green.TabIndex = 4;
-            this.green.Text = "green";
-            this.green.UseVisualStyleBackColor = true;
+            this.timer.Enabled = true;
+            this.timer.Interval = 10;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
-            // blue
+            // fast_radio
             // 
-            this.blue.AutoSize = true;
-            this.blue.Location = new System.Drawing.Point(6, 64);
-            this.blue.Name = "blue";
-            this.blue.Size = new System.Drawing.Size(47, 16);
-            this.blue.TabIndex = 5;
-            this.blue.Text = "blue";
-            this.blue.UseVisualStyleBackColor = true;
+            this.fast_radio.AutoSize = true;
+            this.fast_radio.Checked = true;
+            this.fast_radio.Location = new System.Drawing.Point(528, 12);
+            this.fast_radio.Name = "fast_radio";
+            this.fast_radio.Size = new System.Drawing.Size(43, 16);
+            this.fast_radio.TabIndex = 3;
+            this.fast_radio.TabStop = true;
+            this.fast_radio.Text = "fast";
+            this.fast_radio.UseVisualStyleBackColor = true;
+            this.fast_radio.CheckedChanged += new System.EventHandler(this.fast_radio_CheckedChanged);
             // 
-            // red
+            // slow_radio
             // 
-            this.red.AutoSize = true;
-            this.red.Location = new System.Drawing.Point(6, 18);
-            this.red.Name = "red";
-            this.red.Size = new System.Drawing.Size(41, 16);
-            this.red.TabIndex = 6;
-            this.red.Text = "red";
-            this.red.UseVisualStyleBackColor = true;
-            // 
-            // color_box
-            // 
-            this.color_box.Controls.Add(this.green);
-            this.color_box.Controls.Add(this.blue);
-            this.color_box.Controls.Add(this.red);
-            this.color_box.Location = new System.Drawing.Point(493, 12);
-            this.color_box.Name = "color_box";
-            this.color_box.Size = new System.Drawing.Size(81, 88);
-            this.color_box.TabIndex = 7;
-            this.color_box.TabStop = false;
-            this.color_box.Text = "color";
+            this.slow_radio.AutoSize = true;
+            this.slow_radio.Location = new System.Drawing.Point(528, 34);
+            this.slow_radio.Name = "slow_radio";
+            this.slow_radio.Size = new System.Drawing.Size(50, 16);
+            this.slow_radio.TabIndex = 4;
+            this.slow_radio.Text = "slow";
+            this.slow_radio.UseVisualStyleBackColor = true;
+            this.slow_radio.CheckedChanged += new System.EventHandler(this.slow_radio_CheckedChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(583, 544);
-            this.Controls.Add(this.color_box);
-            this.Controls.Add(this.pic_draw);
+            this.Controls.Add(this.slow_radio);
+            this.Controls.Add(this.fast_radio);
+            this.Controls.Add(this.pic_ball);
             this.Controls.Add(this.print_label);
             this.Name = "Form1";
             this.Text = "windows";
-            ((System.ComponentModel.ISupportInitialize)(this.pic_draw)).EndInit();
-            this.color_box.ResumeLayout(false);
-            this.color_box.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_ball)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,11 +105,10 @@
 
         #endregion
         protected internal System.Windows.Forms.Label print_label;
-        private System.Windows.Forms.PictureBox pic_draw;
-        private System.Windows.Forms.RadioButton green;
-        private System.Windows.Forms.RadioButton blue;
-        private System.Windows.Forms.RadioButton red;
-        private System.Windows.Forms.GroupBox color_box;
+        private System.Windows.Forms.PictureBox pic_ball;
+        private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.RadioButton fast_radio;
+        private System.Windows.Forms.RadioButton slow_radio;
     }
 }
 
