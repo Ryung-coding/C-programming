@@ -19,9 +19,15 @@ namespace _3week
 
         private void button1_Click(object sender, EventArgs e)
         {
-            uint n = (uint)Convert.ToInt32(input.Text);
-            uint bit_shitt = n<<2; //1의 2비트 이동이므로 00..00100=> 4가 나온다
-            output.Text = bit_shitt.ToString();
+            int input_data1 = Convert.ToInt32(input1.Text, 2); //2진수라고 인식해서 바꿈
+            int input_data2 = Convert.ToInt32(input2.Text, 2); //2진수라고 인식해서 바꿈
+            input1.Text = input_data1.ToString();
+            input2.Text = input_data2.ToString();
+            int and_bit = input_data1 | input_data2; //사실상 그냥 합의 의미
+            int or_bit = input_data1 | input_data2; //사실상 그냥 합의 의미
+            int hat_bit = input_data1 | input_data2; //사실상 그냥 합의 의미
+            output.Text = and_bit.ToString();
+
         }
     }
 }
