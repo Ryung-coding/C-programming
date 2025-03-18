@@ -19,14 +19,9 @@ namespace _3week
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int n = Convert.ToInt32(input.Text);
-            int namergi = 0;
-            while (true)
-            {
-                if (n <= 0) break; else namergi = n % 10;
-                output.Text += namergi.ToString() + "\r\n";
-                n /= 10;
-            }
+            uint n = (uint)Convert.ToInt32(input.Text);
+            uint bit_shitt = n<<2; //1의 2비트 이동이므로 00..00100=> 4가 나온다
+            output.Text = bit_shitt.ToString();
         }
     }
 }

@@ -8,3 +8,13 @@ C:\Users\COM\Desktop\3week\3week\3week\obj\Debug\3week.csproj.GenerateResource.c
 C:\Users\COM\Desktop\3week\3week\3week\obj\Debug\3week.csproj.CoreCompileInputs.cache
 C:\Users\COM\Desktop\3week\3week\3week\obj\Debug\3week.exe
 C:\Users\COM\Desktop\3week\3week\3week\obj\Debug\3week.pdb
+C:\Users\COM\Desktop\C-programming\3week\3week\3week\bin\Debug\3week.exe.config
+C:\Users\COM\Desktop\C-programming\3week\3week\3week\bin\Debug\3week.exe
+C:\Users\COM\Desktop\C-programming\3week\3week\3week\bin\Debug\3week.pdb
+C:\Users\COM\Desktop\C-programming\3week\3week\3week\obj\Debug\3week.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\C-programming\3week\3week\3week\obj\Debug\_3week.Form1.resources
+C:\Users\COM\Desktop\C-programming\3week\3week\3week\obj\Debug\_3week.Properties.Resources.resources
+C:\Users\COM\Desktop\C-programming\3week\3week\3week\obj\Debug\3week.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\C-programming\3week\3week\3week\obj\Debug\3week.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\C-programming\3week\3week\3week\obj\Debug\3week.exe
+C:\Users\COM\Desktop\C-programming\3week\3week\3week\obj\Debug\3week.pdb

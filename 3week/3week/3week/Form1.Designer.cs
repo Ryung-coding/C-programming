@@ -54,10 +54,11 @@
             // input
             // 
             this.input.Location = new System.Drawing.Point(12, 74);
+            this.input.Multiline = true;
             this.input.Name = "input";
-            this.input.Size = new System.Drawing.Size(96, 21);
+            this.input.Size = new System.Drawing.Size(96, 23);
             this.input.TabIndex = 2;
-            this.input.Text = "123";
+            this.input.Text = "1";
             // 
             // Form1
             // 
