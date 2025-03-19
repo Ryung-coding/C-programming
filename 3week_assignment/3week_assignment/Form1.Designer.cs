@@ -28,46 +28,74 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.geasangi = new System.Windows.Forms.Button();
+            this.hour = new System.Windows.Forms.TextBox();
+            this.min = new System.Windows.Forms.TextBox();
+            this.sec = new System.Windows.Forms.TextBox();
             this.input = new System.Windows.Forms.TextBox();
-            this.output = new System.Windows.Forms.Label();
+            this.total2hms = new System.Windows.Forms.Button();
+            this.hms2total = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // geasangi
+            // hour
             // 
-            this.geasangi.Location = new System.Drawing.Point(91, 10);
-            this.geasangi.Name = "geasangi";
-            this.geasangi.Size = new System.Drawing.Size(36, 23);
-            this.geasangi.TabIndex = 0;
-            this.geasangi.Text = "go";
-            this.geasangi.UseVisualStyleBackColor = true;
-            this.geasangi.Click += new System.EventHandler(this.geasangi_Click);
+            this.hour.Location = new System.Drawing.Point(159, 10);
+            this.hour.Name = "hour";
+            this.hour.Size = new System.Drawing.Size(31, 21);
+            this.hour.TabIndex = 0;
+            // 
+            // min
+            // 
+            this.min.Location = new System.Drawing.Point(159, 41);
+            this.min.Name = "min";
+            this.min.Size = new System.Drawing.Size(31, 21);
+            this.min.TabIndex = 1;
+            // 
+            // sec
+            // 
+            this.sec.Location = new System.Drawing.Point(159, 68);
+            this.sec.Name = "sec";
+            this.sec.Size = new System.Drawing.Size(31, 21);
+            this.sec.TabIndex = 2;
             // 
             // input
             // 
-            this.input.Location = new System.Drawing.Point(12, 12);
+            this.input.Location = new System.Drawing.Point(8, 41);
             this.input.Name = "input";
-            this.input.Size = new System.Drawing.Size(50, 21);
-            this.input.TabIndex = 1;
-            this.input.Text = "2025";
+            this.input.Size = new System.Drawing.Size(100, 21);
+            this.input.TabIndex = 3;
+            this.input.Text = "100000";
             // 
-            // output
+            // total2hms
             // 
-            this.output.AutoSize = true;
-            this.output.Location = new System.Drawing.Point(68, 15);
-            this.output.Name = "output";
-            this.output.Size = new System.Drawing.Size(17, 12);
-            this.output.TabIndex = 2;
-            this.output.Text = "??";
+            this.total2hms.Location = new System.Drawing.Point(114, 25);
+            this.total2hms.Name = "total2hms";
+            this.total2hms.Size = new System.Drawing.Size(39, 23);
+            this.total2hms.TabIndex = 4;
+            this.total2hms.Text = ">>";
+            this.total2hms.UseVisualStyleBackColor = true;
+            this.total2hms.Click += new System.EventHandler(this.total2hms_Click);
+            // 
+            // hms2total
+            // 
+            this.hms2total.Location = new System.Drawing.Point(114, 54);
+            this.hms2total.Name = "hms2total";
+            this.hms2total.Size = new System.Drawing.Size(39, 23);
+            this.hms2total.TabIndex = 5;
+            this.hms2total.Text = "<<";
+            this.hms2total.UseVisualStyleBackColor = true;
+            this.hms2total.Click += new System.EventHandler(this.hms2total_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(140, 43);
-            this.Controls.Add(this.output);
+            this.ClientSize = new System.Drawing.Size(204, 100);
+            this.Controls.Add(this.hms2total);
+            this.Controls.Add(this.total2hms);
             this.Controls.Add(this.input);
-            this.Controls.Add(this.geasangi);
+            this.Controls.Add(this.sec);
+            this.Controls.Add(this.min);
+            this.Controls.Add(this.hour);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -77,9 +105,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button geasangi;
+        private System.Windows.Forms.TextBox hour;
+        private System.Windows.Forms.TextBox min;
+        private System.Windows.Forms.TextBox sec;
         private System.Windows.Forms.TextBox input;
-        private System.Windows.Forms.Label output;
+        private System.Windows.Forms.Button total2hms;
+        private System.Windows.Forms.Button hms2total;
     }
 }
 

@@ -16,14 +16,21 @@ namespace _3week_assignment
         {
             InitializeComponent();
         }
-        //4로 나눈 값이 떨어지면 윤년
-        //그러나 그 중 100으로 나누어 떨어지면 윤년이 아니다. 
-        //하지만 400으로 나누어진다면 윤년이다. 
-        private void geasangi_Click(object sender, EventArgs e)
+
+        private void total2hms_Click(object sender, EventArgs e)
         {
-            int year = Convert.ToInt32(input.Text);
-            bool isLeapyear = (year % 4 == 0 && year % 100 != 0) ? true : (year % 400 == 0) ? true : false;
-            output.Text = isLeapyear == true ? "O" : "X";
+            int total_sec = Convert.ToInt32(input.Text);
+            hour.Text = (total_sec / 3600).ToString();
+            min.Text = ((total_sec - Convert.ToInt32(hour.Text) * 3600) / 60).ToString();
+            sec.Text = ((total_sec - Convert.ToInt32(hour.Text) * 3600 - Convert.ToInt32(min.Text) * 60)).ToString();
+        }
+
+        private void hms2total_Click(object sender, EventArgs e)
+        {
+            int hour_data = Convert.ToInt32(hour.Text);
+            int min_data = Convert.ToInt32(min.Text);
+            int sec_data = Convert.ToInt32(sec.Text);
+            input.Text = (hour_data * 3600 + min_data * 60 + sec_data).ToString();
         }
     }
 }
