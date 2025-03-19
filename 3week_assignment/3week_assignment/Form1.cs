@@ -16,21 +16,67 @@ namespace _3week_assignment
         {
             InitializeComponent();
         }
-
-        private void total2hms_Click(object sender, EventArgs e)
+        private void Setting_CheckBox(int input_data)
         {
-            int total_sec = Convert.ToInt32(input.Text);
-            hour.Text = (total_sec / 3600).ToString();
-            min.Text = ((total_sec - Convert.ToInt32(hour.Text) * 3600) / 60).ToString();
-            sec.Text = ((total_sec - Convert.ToInt32(hour.Text) * 3600 - Convert.ToInt32(min.Text) * 60)).ToString();
+            chk0.Checked = (input_data & 0x01) != 0;
+            chk1.Checked = (input_data & 0x02) != 0;
+            chk2.Checked = (input_data & 0x04) != 0;
+            chk3.Checked = (input_data & 0x08) != 0;
+            chk4.Checked = (input_data & 0x10) != 0;
+            chk5.Checked = (input_data & 0x20) != 0;
+            chk6.Checked = (input_data & 0x40) != 0;
+            chk7.Checked = (input_data & 0x80) != 0;
         }
 
-        private void hms2total_Click(object sender, EventArgs e)
+        private int Setting_TxtNumber()
         {
-            int hour_data = Convert.ToInt32(hour.Text);
-            int min_data = Convert.ToInt32(min.Text);
-            int sec_data = Convert.ToInt32(sec.Text);
-            input.Text = (hour_data * 3600 + min_data * 60 + sec_data).ToString();
+            int total_data = 0;
+            total_data += chk0.Checked == true ? 0x01 : 0;
+            total_data += chk1.Checked == true ? 0x02 : 0;
+            total_data += chk2.Checked == true ? 0x04 : 0;
+            total_data += chk3.Checked == true ? 0x08 : 0;
+            total_data += chk4.Checked == true ? 0x10 : 0;
+            total_data += chk5.Checked == true ? 0x20 : 0;
+            total_data += chk6.Checked == true ? 0x40 : 0;
+            total_data += chk7.Checked == true ? 0x80 : 0;
+            return total_data;
+        }
+
+        private void btnToBit_Click(object sender, EventArgs e)
+        {
+            Setting_CheckBox(Convert.ToInt32(txtNumber.Text));
+        }
+
+        private void btnFromBit_Click(object sender, EventArgs e)
+        {
+            txtNumber.Text = Setting_TxtNumber().ToString();
+        }
+
+        private void On_Click(object sender, EventArgs e)
+        {
+            int on_check_number_value = Convert.ToInt32(txtIndex.Text);
+            or비트 연산을 하면 됨
+            
+        }
+
+        private void Off_Click(object sender, EventArgs e)
+        {
+            and비트 연산을 하면 됨 0 이었던 곳은 여전히 0이고 reverse하고 나서 and하면 꺼짐
+        }
+
+        private void Toggle_Click(object sender, EventArgs e)
+        {
+            xor하면 됨
+        }
+
+        private void btnShiftUp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnShiftDown_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
