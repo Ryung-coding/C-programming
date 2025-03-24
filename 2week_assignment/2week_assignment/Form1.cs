@@ -12,7 +12,7 @@ namespace _2week_assignment
 {
     public partial class Form1 : Form
     {
-        int dx = 4; int dy = 1; 
+        int dx = 0; int dy = 10; 
         bool Flag_x = true; bool Flag_y = true;
         int past_distance = 0;
 

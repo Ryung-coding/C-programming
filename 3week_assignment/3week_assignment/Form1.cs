@@ -54,29 +54,32 @@ namespace _3week_assignment
 
         private void On_Click(object sender, EventArgs e)
         {
-            int on_check_number_value = Convert.ToInt32(txtIndex.Text);
-            or비트 연산을 하면 됨
-            
+            int add_value = Setting_TxtNumber() | (int)Math.Pow(2, Convert.ToInt32(txtIndex.Text));
+            Setting_CheckBox(add_value);
         }
 
         private void Off_Click(object sender, EventArgs e)
         {
-            and비트 연산을 하면 됨 0 이었던 곳은 여전히 0이고 reverse하고 나서 and하면 꺼짐
+            int remove_value = Setting_TxtNumber() & ~(int)Math.Pow(2, Convert.ToInt32(txtIndex.Text));
+            Setting_CheckBox(remove_value);
         }
-
-        private void Toggle_Click(object sender, EventArgs e)
+         
+        private void Toggle_Click(object sender, EventArgs e) //보류
         {
-            xor하면 됨
+            int toggled_value = Setting_TxtNumber() ^ (int)Math.Pow(2, Convert.ToInt32(txtIndex.Text));
+            Setting_CheckBox(toggled_value);
         }
 
         private void btnShiftUp_Click(object sender, EventArgs e)
         {
-
+            int shift_tap = Convert.ToInt32(txtIndex.Text);
+            Setting_CheckBox(Setting_TxtNumber() << shift_tap);
         }
 
         private void btnShiftDown_Click(object sender, EventArgs e)
         {
-
+            int shift_tap = Convert.ToInt32(txtIndex.Text);
+            Setting_CheckBox(Setting_TxtNumber() >> shift_tap);
         }
     }
 }

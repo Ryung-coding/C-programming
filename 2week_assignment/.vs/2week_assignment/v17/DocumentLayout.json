@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Master\\Desktop\\C-programming\\2week_assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9965399F-8E2F-4E54-87A6-8D4D04483A18}|2week_assignment\\2week_assignment.csproj|c:\\users\\master\\desktop\\c-programming\\2week_assignment\\2week_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9965399F-8E2F-4E54-87A6-8D4D04483A18}|2week_assignment\\2week_assignment.csproj|solutionrelative:2week_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9965399F-8E2F-4E54-87A6-8D4D04483A18}|2week_assignment\\2week_assignment.csproj|C:\\Users\\Master\\Desktop\\C-programming\\2week_assignment\\2week_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9965399F-8E2F-4E54-87A6-8D4D04483A18}|2week_assignment\\2week_assignment.csproj|solutionrelative:2week_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9965399F-8E2F-4E54-87A6-8D4D04483A18}|2week_assignment\\2week_assignment.csproj|c:\\users\\master\\desktop\\c-programming\\2week_assignment\\2week_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9965399F-8E2F-4E54-87A6-8D4D04483A18}|2week_assignment\\2week_assignment.csproj|solutionrelative:2week_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9965399F-8E2F-4E54-87A6-8D4D04483A18}|2week_assignment\\2week_assignment.csproj|c:\\users\\master\\desktop\\c-programming\\2week_assignment\\2week_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9965399F-8E2F-4E54-87A6-8D4D04483A18}|2week_assignment\\2week_assignment.csproj|solutionrelative:2week_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Master\\Desktop\\C-programming\\2week_assignment\\2week_assignment\\Form1.cs",
               "RelativeDocumentMoniker": "2week_assignment\\Form1.cs",
-              "ToolTip": "C:\\Users\\Master\\Desktop\\C-programming\\2week_assignment\\2week_assignment\\Form1.cs",
-              "RelativeToolTip": "2week_assignment\\Form1.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAkwBIAAAALAAAA",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\C-programming\\2week_assignment\\2week_assignment\\Form1.cs*",
+              "RelativeToolTip": "2week_assignment\\Form1.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T07:15:49.751Z",
               "IsPinned": true,
@@ -36,12 +36,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "C:\\Users\\Master\\Desktop\\C-programming\\2week_assignment\\2week_assignment\\Form1.cs",
               "RelativeDocumentMoniker": "2week_assignment\\Form1.cs",
-              "ToolTip": "C:\\Users\\Master\\Desktop\\C-programming\\2week_assignment\\2week_assignment\\Form1.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "2week_assignment\\Form1.cs [\uB514\uC790\uC778]",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\C-programming\\2week_assignment\\2week_assignment\\Form1.cs [\uB514\uC790\uC778]*",
+              "RelativeToolTip": "2week_assignment\\Form1.cs [\uB514\uC790\uC778]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T07:15:21.083Z",
               "IsPinned": true,

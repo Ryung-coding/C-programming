@@ -39,13 +39,13 @@
             this.txtIndex = new System.Windows.Forms.TextBox();
             this.chk7 = new System.Windows.Forms.CheckBox();
             this.bit_box = new System.Windows.Forms.GroupBox();
-            this.chk5 = new System.Windows.Forms.CheckBox();
-            this.chk6 = new System.Windows.Forms.CheckBox();
-            this.chk4 = new System.Windows.Forms.CheckBox();
-            this.chk1 = new System.Windows.Forms.CheckBox();
-            this.chk3 = new System.Windows.Forms.CheckBox();
-            this.chk2 = new System.Windows.Forms.CheckBox();
             this.chk0 = new System.Windows.Forms.CheckBox();
+            this.chk2 = new System.Windows.Forms.CheckBox();
+            this.chk3 = new System.Windows.Forms.CheckBox();
+            this.chk1 = new System.Windows.Forms.CheckBox();
+            this.chk4 = new System.Windows.Forms.CheckBox();
+            this.chk6 = new System.Windows.Forms.CheckBox();
+            this.chk5 = new System.Windows.Forms.CheckBox();
             this.bit_box.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -125,7 +125,6 @@
             this.txtNumber.Name = "txtNumber";
             this.txtNumber.Size = new System.Drawing.Size(34, 21);
             this.txtNumber.TabIndex = 15;
-            this.txtNumber.Text = "256";
             // 
             // txtIndex
             // 
@@ -133,6 +132,7 @@
             this.txtIndex.Name = "txtIndex";
             this.txtIndex.Size = new System.Drawing.Size(34, 21);
             this.txtIndex.TabIndex = 16;
+            this.txtIndex.Text = "０";
             // 
             // chk7
             // 
@@ -161,55 +161,15 @@
             this.bit_box.TabStop = false;
             this.bit_box.Text = "bit_box";
             // 
-            // chk5
+            // chk0
             // 
-            this.chk5.AutoSize = true;
-            this.chk5.Location = new System.Drawing.Point(6, 66);
-            this.chk5.Name = "chk5";
-            this.chk5.Size = new System.Drawing.Size(30, 16);
-            this.chk5.TabIndex = 9;
-            this.chk5.Text = "5";
-            this.chk5.UseVisualStyleBackColor = true;
-            // 
-            // chk6
-            // 
-            this.chk6.AutoSize = true;
-            this.chk6.Location = new System.Drawing.Point(6, 44);
-            this.chk6.Name = "chk6";
-            this.chk6.Size = new System.Drawing.Size(30, 16);
-            this.chk6.TabIndex = 10;
-            this.chk6.Text = "6";
-            this.chk6.UseVisualStyleBackColor = true;
-            // 
-            // chk4
-            // 
-            this.chk4.AutoSize = true;
-            this.chk4.Location = new System.Drawing.Point(6, 86);
-            this.chk4.Name = "chk4";
-            this.chk4.Size = new System.Drawing.Size(30, 16);
-            this.chk4.TabIndex = 11;
-            this.chk4.Text = "4";
-            this.chk4.UseVisualStyleBackColor = true;
-            // 
-            // chk1
-            // 
-            this.chk1.AutoSize = true;
-            this.chk1.Location = new System.Drawing.Point(6, 149);
-            this.chk1.Name = "chk1";
-            this.chk1.Size = new System.Drawing.Size(30, 16);
-            this.chk1.TabIndex = 12;
-            this.chk1.Text = "1";
-            this.chk1.UseVisualStyleBackColor = true;
-            // 
-            // chk3
-            // 
-            this.chk3.AutoSize = true;
-            this.chk3.Location = new System.Drawing.Point(6, 105);
-            this.chk3.Name = "chk3";
-            this.chk3.Size = new System.Drawing.Size(30, 16);
-            this.chk3.TabIndex = 12;
-            this.chk3.Text = "3";
-            this.chk3.UseVisualStyleBackColor = true;
+            this.chk0.AutoSize = true;
+            this.chk0.Location = new System.Drawing.Point(6, 170);
+            this.chk0.Name = "chk0";
+            this.chk0.Size = new System.Drawing.Size(30, 16);
+            this.chk0.TabIndex = 14;
+            this.chk0.Text = "0";
+            this.chk0.UseVisualStyleBackColor = true;
             // 
             // chk2
             // 
@@ -221,15 +181,55 @@
             this.chk2.Text = "2";
             this.chk2.UseVisualStyleBackColor = true;
             // 
-            // chk0
+            // chk3
             // 
-            this.chk0.AutoSize = true;
-            this.chk0.Location = new System.Drawing.Point(6, 170);
-            this.chk0.Name = "chk0";
-            this.chk0.Size = new System.Drawing.Size(30, 16);
-            this.chk0.TabIndex = 14;
-            this.chk0.Text = "0";
-            this.chk0.UseVisualStyleBackColor = true;
+            this.chk3.AutoSize = true;
+            this.chk3.Location = new System.Drawing.Point(6, 105);
+            this.chk3.Name = "chk3";
+            this.chk3.Size = new System.Drawing.Size(30, 16);
+            this.chk3.TabIndex = 12;
+            this.chk3.Text = "3";
+            this.chk3.UseVisualStyleBackColor = true;
+            // 
+            // chk1
+            // 
+            this.chk1.AutoSize = true;
+            this.chk1.Location = new System.Drawing.Point(6, 149);
+            this.chk1.Name = "chk1";
+            this.chk1.Size = new System.Drawing.Size(30, 16);
+            this.chk1.TabIndex = 12;
+            this.chk1.Text = "1";
+            this.chk1.UseVisualStyleBackColor = true;
+            // 
+            // chk4
+            // 
+            this.chk4.AutoSize = true;
+            this.chk4.Location = new System.Drawing.Point(6, 86);
+            this.chk4.Name = "chk4";
+            this.chk4.Size = new System.Drawing.Size(30, 16);
+            this.chk4.TabIndex = 11;
+            this.chk4.Text = "4";
+            this.chk4.UseVisualStyleBackColor = true;
+            // 
+            // chk6
+            // 
+            this.chk6.AutoSize = true;
+            this.chk6.Location = new System.Drawing.Point(6, 44);
+            this.chk6.Name = "chk6";
+            this.chk6.Size = new System.Drawing.Size(30, 16);
+            this.chk6.TabIndex = 10;
+            this.chk6.Text = "6";
+            this.chk6.UseVisualStyleBackColor = true;
+            // 
+            // chk5
+            // 
+            this.chk5.AutoSize = true;
+            this.chk5.Location = new System.Drawing.Point(6, 66);
+            this.chk5.Name = "chk5";
+            this.chk5.Size = new System.Drawing.Size(30, 16);
+            this.chk5.TabIndex = 9;
+            this.chk5.Text = "5";
+            this.chk5.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
