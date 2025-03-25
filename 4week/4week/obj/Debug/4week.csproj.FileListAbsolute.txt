@@ -1,0 +1,10 @@
+C:\Users\COM\Desktop\C-programming\4week\4week\obj\Debug\4week.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\C-programming\4week\4week\obj\Debug\_4week.Form1.resources
+C:\Users\COM\Desktop\C-programming\4week\4week\obj\Debug\_4week.Properties.Resources.resources
+C:\Users\COM\Desktop\C-programming\4week\4week\obj\Debug\4week.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\C-programming\4week\4week\obj\Debug\4week.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\C-programming\4week\4week\bin\Debug\4week.exe.config
+C:\Users\COM\Desktop\C-programming\4week\4week\bin\Debug\4week.exe
+C:\Users\COM\Desktop\C-programming\4week\4week\bin\Debug\4week.pdb
+C:\Users\COM\Desktop\C-programming\4week\4week\obj\Debug\4week.exe
+C:\Users\COM\Desktop\C-programming\4week\4week\obj\Debug\4week.pdb

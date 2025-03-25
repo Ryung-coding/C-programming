@@ -28,13 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.button = new System.Windows.Forms.Button();
+            this.data = new System.Windows.Forms.Label();
+            this.checkBox = new System.Windows.Forms.CheckBox();
+            this.SuspendLayout();
+            // 
+            // button
+            // 
+            this.button.Location = new System.Drawing.Point(60, 12);
+            this.button.Name = "button";
+            this.button.Size = new System.Drawing.Size(48, 58);
+            this.button.TabIndex = 0;
+            this.button.Text = "go";
+            this.button.UseVisualStyleBackColor = true;
+            this.button.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // data
+            // 
+            this.data.AutoSize = true;
+            this.data.Font = new System.Drawing.Font("굴림", 15F);
+            this.data.Location = new System.Drawing.Point(12, 12);
+            this.data.Name = "data";
+            this.data.Size = new System.Drawing.Size(20, 20);
+            this.data.TabIndex = 1;
+            this.data.Text = "0";
+            // 
+            // checkBox
+            // 
+            this.checkBox.AutoSize = true;
+            this.checkBox.Location = new System.Drawing.Point(6, 54);
+            this.checkBox.Name = "checkBox";
+            this.checkBox.Size = new System.Drawing.Size(48, 16);
+            this.checkBox.TabIndex = 2;
+            this.checkBox.Text = "stop";
+            this.checkBox.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(120, 82);
+            this.Controls.Add(this.checkBox);
+            this.Controls.Add(this.data);
+            this.Controls.Add(this.button);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button button;
+        private System.Windows.Forms.Label data;
+        private System.Windows.Forms.CheckBox checkBox;
     }
 }
 
