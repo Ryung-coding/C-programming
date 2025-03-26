@@ -13,71 +13,60 @@ namespace _4week_assignment
 {
     public partial class Form1 : Form
     {
-        Random rnd = new Random(); //Random class 정의
-        bool[] isopen = new bool[5] { false, false, false, false, false };
 
-        private void closed_all()
+        const float x_min = -5, x_max = 20;
+        const float y_min = -5, y_max = 20;
+
+        private float xp2xw(float xw)
         {
-            card00.Image = Properties.Resources.closed;
-            card01.Image = Properties.Resources.closed;
-            card02.Image = Properties.Resources.closed;
-            card03.Image = Properties.Resources.closed;
-            card04.Image = Properties.Resources.closed;
-            timer_open.Enabled = true;
-            timer_closed.Enabled = false;
-            for (int i = 0; i < 5; i++) isopen[i] = false;
+            float w = picDraw.ClientSize.Width;
+            return w * (xw - x_min) / (x_max - x_min);
         }
+
+        private float yp2yw(float yw)
+        {
+            float h = picDraw.ClientSize.Height;
+            return h * (1 - ((yw - y_min) / (y_max - y_min)));
+        }
+
+
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void timer_open_Tick(object sender, EventArgs e) //timer가 open이 된 순간 
+        private void btnDraw_Click(object sender, EventArgs e)
         {
-            int random_number = rnd.Next(5);
-            switch (random_number)
+            const int num_data = 10;
+            float[] xw = new float[num_data] { 1F, 2F, 3F, 4F, 5F, 6F, 7F, 8F, 9F, 10F };
+            float[] yw = new float[num_data] { 1.3F, 3.5F, 4.2F, 5.0F, 7.0F, 8.8F, 10.1F, 12.5F, 13.0F, 15.6F };
+
+            Graphics grp = picDraw.CreateGraphics();
+
+            grp.DrawLine(new Pen(Color.Black), xp2xw(x_min), yp2yw(0), xp2xw(x_max), yp2yw(0));
+            grp.DrawLine(new Pen(Color.Black), xp2xw(0), yp2yw(y_min), xp2xw(0), yp2yw(y_max));
+
+            for(int i = 0; i < num_data; i++) grp.DrawEllipse(new Pen(Color.Red), xp2xw(xw[i]), yp2yw(yw[i]), 2, 2);
+
+            float sum_XY = 0, sum_XX = 0;
+            float sum_X = 0, sum_Y = 0;
+
+            for(int i=0; i < num_data; i++)
             {
-                case 0:
-                    card00.Image = Properties.Resources.open;
-                    break;
-
-                case 1:
-                    card01.Image = Properties.Resources.open;
-                    break;
-
-                case 2:
-                    card02.Image = Properties.Resources.open;
-                    break;
-
-                case 3:
-                    card03.Image = Properties.Resources.open;
-                    break;
-
-                case 4:
-                    card04.Image = Properties.Resources.open;
-                    break;
+                sum_XY += xw[i] * yw[i];
+                sum_X += xw[i];
+                sum_Y += yw[i];
+                sum_XX += xw[i] * xw[i];
             }
-            timer_open.Enabled = false;
-            timer_closed.Enabled = true;
-            isopen[random_number] = true;
-        }
 
-        private void timer_closed_Tick(object sender, EventArgs e)
-        {
-            closed_all();
-        }
+            float a = (num_data * sum_XY - sum_X * sum_Y) / (num_data * sum_XX - sum_X * sum_X);
+            float b = (sum_Y - a * sum_X) / num_data;
 
-        private void card_Click(object sender, EventArgs e) //sender가 열렸는지에 대한 이벤트를 알려줌
-        {
-            int Hit_card = 0;
-            PictureBox obj2pic = (PictureBox)sender;
-            if (obj2pic == card00) Hit_card = 0;
-            if (obj2pic == card01) Hit_card = 1;
-            if (obj2pic == card02) Hit_card = 2;
-            if (obj2pic == card03) Hit_card = 3;
-            if (obj2pic == card04) Hit_card = 4;
-            count.Text = (isopen[Hit_card] ? 1 + Convert.ToInt32(count.Text) : Convert.ToInt32(count.Text)).ToString();
-            closed_all();
+            grp.DrawLine(new Pen(Color.Blue), xp2xw(x_min), yp2yw(a * x_min + b), xp2xw(x_max), yp2yw(a * x_max + b));
+
+            //cramer rule로 하면 잘 됨 -> 과제 힌트
+
         }
     }
 }
