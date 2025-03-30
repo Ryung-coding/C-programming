@@ -14,8 +14,8 @@ namespace _4week_assignment
     public partial class Form1 : Form
     {
 
-        const float x_min = -5, x_max = 20;
-        const float y_min = -5, y_max = 20;
+        const float x_min = -2, x_max = 7;
+        const float y_min = -5, y_max = 70;
 
         private float xp2xw(float xw)
         {
@@ -38,9 +38,9 @@ namespace _4week_assignment
 
         private void btnDraw_Click(object sender, EventArgs e)
         {
-            const int num_data = 10;
-            float[] xw = new float[num_data] { 1F, 2F, 3F, 4F, 5F, 6F, 7F, 8F, 9F, 10F };
-            float[] yw = new float[num_data] { 1.3F, 3.5F, 4.2F, 5.0F, 7.0F, 8.8F, 10.1F, 12.5F, 13.0F, 15.6F };
+            const int num_data = 6;
+            float[] xw = new float[num_data] { 1F, 2F, 3F, 4F, 5F, 6F};
+            float[] yw = new float[num_data] { 2.1F, 7.7F, 13.6F, 27.2F, 40.9F, 61.1F};
 
             Graphics grp = picDraw.CreateGraphics();
 
@@ -49,23 +49,31 @@ namespace _4week_assignment
 
             for(int i = 0; i < num_data; i++) grp.DrawEllipse(new Pen(Color.Red), xp2xw(xw[i]), yp2yw(yw[i]), 2, 2);
 
-            float sum_XY = 0, sum_XX = 0;
-            float sum_X = 0, sum_Y = 0;
+            float sum_X1 = 0; float sum_X2 = 0; float sum_X3 = 0; float sum_X4 = 0;
+            float sum_Y1 = 0; float sum_XY = 0; float sum_X2Y = 0;
 
-            for(int i=0; i < num_data; i++)
+            for (int i=0; i < num_data; i++)
             {
+                sum_X1 += xw[i];
+                sum_X2 += xw[i] * xw[i];
+                sum_X3 += xw[i] * xw[i] * xw[i];
+                sum_X4 += xw[i] * xw[i] * xw[i] * xw[i];
+
+                sum_Y1 += yw[i];
                 sum_XY += xw[i] * yw[i];
-                sum_X += xw[i];
-                sum_Y += yw[i];
-                sum_XX += xw[i] * xw[i];
+                sum_X2Y += xw[i] * xw[i] * yw[i];
             }
+            float det = num_data * (sum_X2 * sum_X4 - sum_X3 * sum_X3) - sum_X1 * (sum_X1 * sum_X4 - sum_X3 * sum_X2) + sum_X2 * (sum_X1 * sum_X3 - sum_X2 * sum_X2);
 
-            float a = (num_data * sum_XY - sum_X * sum_Y) / (num_data * sum_XX - sum_X * sum_X);
-            float b = (sum_Y - a * sum_X) / num_data;
+            float a0 = (sum_Y1 * (sum_X2 * sum_X4 - sum_X3 * sum_X3) - sum_X1 * (sum_XY * sum_X4 - sum_X3 * sum_X2Y) + sum_X2 * (sum_XY * sum_X3 - sum_X2 * sum_X2Y)) / det;
 
-            grp.DrawLine(new Pen(Color.Blue), xp2xw(x_min), yp2yw(a * x_min + b), xp2xw(x_max), yp2yw(a * x_max + b));
+            float a1 = (num_data * (sum_XY * sum_X4 - sum_X3 * sum_X2Y) - sum_Y1 * (sum_X1 * sum_X4 - sum_X3 * sum_X2) + sum_X2 * (sum_X1 * sum_X2Y - sum_XY * sum_X2)) / det;
 
-            //cramer rule로 하면 잘 됨 -> 과제 힌트
+            float a2 = (num_data * (sum_X2 * sum_X2Y - sum_XY * sum_X3) - sum_X1 * (sum_X1 * sum_X2Y - sum_XY * sum_X2) + sum_Y1 * (sum_X1 * sum_X3 - sum_X2 * sum_X2)) / det;
+
+
+            for (float i = x_min; i < x_max - 0.1F; i = i + 0.1F) grp.DrawLine(new Pen(Color.Blue), xp2xw(i), yp2yw(a2 * i * i + a1 * i + a0), xp2xw(i + 0.1F), yp2yw(a2 * (i + 0.1F) * (i + 0.1F) + a1 * (i + 0.1F) + a0));
+            
 
         }
     }
