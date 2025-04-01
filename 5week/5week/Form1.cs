@@ -16,5 +16,18 @@ namespace _5week
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            calcu.Divide(10, 3, out int q, out int r);
+
+            int x = 3; int y = 4;
+            calcu.Swap(ref x, ref y);
+
+            Console.WriteLine(q);
+            Console.WriteLine(r);
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+        }
     }
 }
