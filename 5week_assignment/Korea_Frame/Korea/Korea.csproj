@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7FF90808-6CDE-44DA-818A-FCA5B60AB127}</ProjectGuid>
+    <ProjectGuid>{2C21A837-1172-4A32-B7FE-2FDFE9627138}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_5week_assignment</RootNamespace>
-    <AssemblyName>5week_assignment</AssemblyName>
+    <RootNamespace>Korea</RootNamespace>
+    <AssemblyName>Korea</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
