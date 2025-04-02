@@ -65,6 +65,7 @@
             this.btnReplace.TabIndex = 66;
             this.btnReplace.Text = "Replace";
             this.btnReplace.UseVisualStyleBackColor = true;
+            this.btnReplace.Click += new System.EventHandler(this.btnReplace_Click);
             // 
             // btnSplit
             // 
@@ -74,6 +75,7 @@
             this.btnSplit.TabIndex = 65;
             this.btnSplit.Text = "Split";
             this.btnSplit.UseVisualStyleBackColor = true;
+            this.btnSplit.Click += new System.EventHandler(this.btnSplit_Click);
             // 
             // btnPadRight
             // 
@@ -83,6 +85,7 @@
             this.btnPadRight.TabIndex = 64;
             this.btnPadRight.Text = "PadRight";
             this.btnPadRight.UseVisualStyleBackColor = true;
+            this.btnPadRight.Click += new System.EventHandler(this.btnPadRight_Click);
             // 
             // btnPadLeft
             // 
@@ -92,6 +95,7 @@
             this.btnPadLeft.TabIndex = 63;
             this.btnPadLeft.Text = "PadLeft";
             this.btnPadLeft.UseVisualStyleBackColor = true;
+            this.btnPadLeft.Click += new System.EventHandler(this.btnPadLeft_Click);
             // 
             // btnFind
             // 
@@ -101,6 +105,7 @@
             this.btnFind.TabIndex = 62;
             this.btnFind.Text = "Find";
             this.btnFind.UseVisualStyleBackColor = true;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // btnCompare
             // 
@@ -110,6 +115,7 @@
             this.btnCompare.TabIndex = 61;
             this.btnCompare.Text = "Compare";
             this.btnCompare.UseVisualStyleBackColor = true;
+            this.btnCompare.Click += new System.EventHandler(this.btnCompare_Click);
             // 
             // btnLower
             // 
@@ -119,6 +125,7 @@
             this.btnLower.TabIndex = 60;
             this.btnLower.Text = "Lower";
             this.btnLower.UseVisualStyleBackColor = true;
+            this.btnLower.Click += new System.EventHandler(this.btnLower_Click);
             // 
             // btnUpper
             // 
@@ -128,6 +135,7 @@
             this.btnUpper.TabIndex = 59;
             this.btnUpper.Text = "Upper";
             this.btnUpper.UseVisualStyleBackColor = true;
+            this.btnUpper.Click += new System.EventHandler(this.btnUpper_Click);
             // 
             // btnMid
             // 
@@ -137,6 +145,7 @@
             this.btnMid.TabIndex = 58;
             this.btnMid.Text = "Mid 2,3";
             this.btnMid.UseVisualStyleBackColor = true;
+            this.btnMid.Click += new System.EventHandler(this.btnMid_Click);
             // 
             // btnRight
             // 
@@ -146,6 +155,7 @@
             this.btnRight.TabIndex = 57;
             this.btnRight.Text = "Right";
             this.btnRight.UseVisualStyleBackColor = true;
+            this.btnRight.Click += new System.EventHandler(this.btnRight_Click);
             // 
             // btnLeft
             // 
@@ -155,6 +165,7 @@
             this.btnLeft.TabIndex = 56;
             this.btnLeft.Text = "Left";
             this.btnLeft.UseVisualStyleBackColor = true;
+            this.btnLeft.Click += new System.EventHandler(this.btnLeft_Click);
             // 
             // btnLength
             // 
@@ -164,6 +175,7 @@
             this.btnLength.TabIndex = 55;
             this.btnLength.Text = "Length";
             this.btnLength.UseVisualStyleBackColor = true;
+            this.btnLength.Click += new System.EventHandler(this.btnLength_Click);
             // 
             // txtOUT
             // 

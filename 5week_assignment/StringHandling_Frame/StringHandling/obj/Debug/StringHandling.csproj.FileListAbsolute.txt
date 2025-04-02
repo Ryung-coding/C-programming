@@ -18,3 +18,13 @@ C:\Users\KSH\Desktop\5주차_메소드\StringHandling_Frame\StringHandling\obj\D
 C:\Users\KSH\Desktop\5주차_메소드\StringHandling_Frame\StringHandling\obj\Debug\StringHandling.csproj.CoreCompileInputs.cache
 C:\Users\KSH\Desktop\5주차_메소드\StringHandling_Frame\StringHandling\obj\Debug\StringHandling.exe
 C:\Users\KSH\Desktop\5주차_메소드\StringHandling_Frame\StringHandling\obj\Debug\StringHandling.pdb
+C:\Users\COM\Desktop\C-programming\5week_assignment\StringHandling_Frame\StringHandling\bin\Debug\StringHandling.exe.config
+C:\Users\COM\Desktop\C-programming\5week_assignment\StringHandling_Frame\StringHandling\bin\Debug\StringHandling.exe
+C:\Users\COM\Desktop\C-programming\5week_assignment\StringHandling_Frame\StringHandling\bin\Debug\StringHandling.pdb
+C:\Users\COM\Desktop\C-programming\5week_assignment\StringHandling_Frame\StringHandling\obj\Debug\StringHandling.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\C-programming\5week_assignment\StringHandling_Frame\StringHandling\obj\Debug\StringHandling.Form1.resources
+C:\Users\COM\Desktop\C-programming\5week_assignment\StringHandling_Frame\StringHandling\obj\Debug\StringHandling.Properties.Resources.resources
+C:\Users\COM\Desktop\C-programming\5week_assignment\StringHandling_Frame\StringHandling\obj\Debug\StringHandling.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\C-programming\5week_assignment\StringHandling_Frame\StringHandling\obj\Debug\StringHandling.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\C-programming\5week_assignment\StringHandling_Frame\StringHandling\obj\Debug\StringHandling.exe
+C:\Users\COM\Desktop\C-programming\5week_assignment\StringHandling_Frame\StringHandling\obj\Debug\StringHandling.pdb
