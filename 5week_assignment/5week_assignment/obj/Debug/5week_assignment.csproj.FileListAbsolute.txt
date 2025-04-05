@@ -8,3 +8,13 @@ C:\Users\COM\Desktop\C-programming\5week_assignment\5week_assignment\obj\Debug\5
 C:\Users\COM\Desktop\C-programming\5week_assignment\5week_assignment\obj\Debug\5week_assignment.csproj.CoreCompileInputs.cache
 C:\Users\COM\Desktop\C-programming\5week_assignment\5week_assignment\obj\Debug\5week_assignment.exe
 C:\Users\COM\Desktop\C-programming\5week_assignment\5week_assignment\obj\Debug\5week_assignment.pdb
+C:\Users\Master\Desktop\학교자료\C-programming\5week_assignment\5week_assignment\bin\Debug\5week_assignment.exe.config
+C:\Users\Master\Desktop\학교자료\C-programming\5week_assignment\5week_assignment\bin\Debug\5week_assignment.exe
+C:\Users\Master\Desktop\학교자료\C-programming\5week_assignment\5week_assignment\bin\Debug\5week_assignment.pdb
+C:\Users\Master\Desktop\학교자료\C-programming\5week_assignment\5week_assignment\obj\Debug\5week_assignment.csproj.AssemblyReference.cache
+C:\Users\Master\Desktop\학교자료\C-programming\5week_assignment\5week_assignment\obj\Debug\_5week_assignment.Form1.resources
+C:\Users\Master\Desktop\학교자료\C-programming\5week_assignment\5week_assignment\obj\Debug\_5week_assignment.Properties.Resources.resources
+C:\Users\Master\Desktop\학교자료\C-programming\5week_assignment\5week_assignment\obj\Debug\5week_assignment.csproj.GenerateResource.cache
+C:\Users\Master\Desktop\학교자료\C-programming\5week_assignment\5week_assignment\obj\Debug\5week_assignment.csproj.CoreCompileInputs.cache
+C:\Users\Master\Desktop\학교자료\C-programming\5week_assignment\5week_assignment\obj\Debug\5week_assignment.exe
+C:\Users\Master\Desktop\학교자료\C-programming\5week_assignment\5week_assignment\obj\Debug\5week_assignment.pdb

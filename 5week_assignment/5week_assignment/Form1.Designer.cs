@@ -39,7 +39,7 @@
             // 
             // start
             // 
-            this.start.Location = new System.Drawing.Point(368, 12);
+            this.start.Location = new System.Drawing.Point(513, 12);
             this.start.Name = "start";
             this.start.Size = new System.Drawing.Size(101, 23);
             this.start.TabIndex = 0;
@@ -52,14 +52,14 @@
             this.picArea.BackColor = System.Drawing.Color.White;
             this.picArea.Location = new System.Drawing.Point(12, 12);
             this.picArea.Name = "picArea";
-            this.picArea.Size = new System.Drawing.Size(348, 263);
+            this.picArea.Size = new System.Drawing.Size(493, 483);
             this.picArea.TabIndex = 1;
             this.picArea.TabStop = false;
             // 
             // ratio_real
             // 
             this.ratio_real.AutoSize = true;
-            this.ratio_real.Location = new System.Drawing.Point(366, 43);
+            this.ratio_real.Location = new System.Drawing.Point(511, 43);
             this.ratio_real.Name = "ratio_real";
             this.ratio_real.Size = new System.Drawing.Size(56, 12);
             this.ratio_real.TabIndex = 2;
@@ -68,7 +68,7 @@
             // in_area
             // 
             this.in_area.AutoSize = true;
-            this.in_area.Location = new System.Drawing.Point(366, 66);
+            this.in_area.Location = new System.Drawing.Point(511, 66);
             this.in_area.Name = "in_area";
             this.in_area.Size = new System.Drawing.Size(46, 12);
             this.in_area.TabIndex = 3;
@@ -77,7 +77,7 @@
             // out_area
             // 
             this.out_area.AutoSize = true;
-            this.out_area.Location = new System.Drawing.Point(366, 89);
+            this.out_area.Location = new System.Drawing.Point(511, 89);
             this.out_area.Name = "out_area";
             this.out_area.Size = new System.Drawing.Size(53, 12);
             this.out_area.TabIndex = 4;
@@ -86,7 +86,7 @@
             // ratio_monte
             // 
             this.ratio_monte.AutoSize = true;
-            this.ratio_monte.Location = new System.Drawing.Point(366, 112);
+            this.ratio_monte.Location = new System.Drawing.Point(511, 112);
             this.ratio_monte.Name = "ratio_monte";
             this.ratio_monte.Size = new System.Drawing.Size(70, 12);
             this.ratio_monte.TabIndex = 5;
@@ -96,7 +96,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 291);
+            this.ClientSize = new System.Drawing.Size(626, 507);
             this.Controls.Add(this.ratio_monte);
             this.Controls.Add(this.out_area);
             this.Controls.Add(this.in_area);
