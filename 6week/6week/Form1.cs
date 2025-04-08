@@ -17,17 +17,10 @@ namespace _6week
             InitializeComponent();
         }
 
-        private void btn_cat_Click(object sender, EventArgs e)
+        private void btn_Click(object sender, EventArgs e)
         {
-            // Cat cat_null = new Cat();
-            Cat cat = new Cat("ryung", "white");
+            double[] vec = new double[] { 1, 1, 1 };
+            RyungMath.Normalize(vec, out double[] uvec);
         }
-
-        private void btn_N_cat_Click(object sender, EventArgs e)
-        {
-            GC.Collect(); //바로 가비지 컬렉터를 작동하도록 설정.
-            label1.Text = Cat.Ncat.ToString();
-        }
-
     }
 }
