@@ -16,5 +16,18 @@ namespace _6week
         {
             InitializeComponent();
         }
+
+        private void btn_cat_Click(object sender, EventArgs e)
+        {
+            // Cat cat_null = new Cat();
+            Cat cat = new Cat("ryung", "white");
+        }
+
+        private void btn_N_cat_Click(object sender, EventArgs e)
+        {
+            GC.Collect(); //바로 가비지 컬렉터를 작동하도록 설정.
+            label1.Text = Cat.Ncat.ToString();
+        }
+
     }
 }

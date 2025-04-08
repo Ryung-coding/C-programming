@@ -1,0 +1,10 @@
+C:\Users\COM\Desktop\C-programming\6week\6week\bin\Debug\6week.exe.config
+C:\Users\COM\Desktop\C-programming\6week\6week\bin\Debug\6week.exe
+C:\Users\COM\Desktop\C-programming\6week\6week\bin\Debug\6week.pdb
+C:\Users\COM\Desktop\C-programming\6week\6week\obj\Debug\6week.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\C-programming\6week\6week\obj\Debug\_6week.Form1.resources
+C:\Users\COM\Desktop\C-programming\6week\6week\obj\Debug\_6week.Properties.Resources.resources
+C:\Users\COM\Desktop\C-programming\6week\6week\obj\Debug\6week.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\C-programming\6week\6week\obj\Debug\6week.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\C-programming\6week\6week\obj\Debug\6week.exe
+C:\Users\COM\Desktop\C-programming\6week\6week\obj\Debug\6week.pdb
