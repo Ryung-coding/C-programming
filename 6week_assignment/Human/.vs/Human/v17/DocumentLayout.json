@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\COM\\Desktop\\Human\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0CBA49-3FA0-44CD-8791-4351EC694057}|Human\\Human.csproj|c:\\users\\com\\desktop\\human\\human\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0CBA49-3FA0-44CD-8791-4351EC694057}|Human\\Human.csproj|solutionrelative:human\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0CBA49-3FA0-44CD-8791-4351EC694057}|Human\\Human.csproj|c:\\users\\com\\desktop\\human\\human\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA0CBA49-3FA0-44CD-8791-4351EC694057}|Human\\Human.csproj|solutionrelative:human\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0CBA49-3FA0-44CD-8791-4351EC694057}|Human\\Human.csproj|c:\\users\\com\\desktop\\human\\human\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0CBA49-3FA0-44CD-8791-4351EC694057}|Human\\Human.csproj|solutionrelative:human\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Human\\Human\\Form1.cs",
+              "RelativeDocumentMoniker": "Human\\Form1.cs",
+              "ToolTip": "C:\\Users\\COM\\Desktop\\Human\\Human\\Form1.cs",
+              "RelativeToolTip": "Human\\Form1.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAywBsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T08:47:50.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Human.cs",
+              "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Human\\Human\\Human.cs",
+              "RelativeDocumentMoniker": "Human\\Human.cs",
+              "ToolTip": "C:\\Users\\COM\\Desktop\\Human\\Human\\Human.cs",
+              "RelativeToolTip": "Human\\Human.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T08:45:17.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Human\\Human\\Form1.cs",
+              "RelativeDocumentMoniker": "Human\\Form1.cs",
+              "ToolTip": "C:\\Users\\COM\\Desktop\\Human\\Human\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Human\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T08:44:55.199Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

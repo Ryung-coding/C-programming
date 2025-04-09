@@ -1,0 +1,10 @@
+C:\Users\COM\Desktop\C-programming\6week_assignment\Human\Human\bin\Debug\Human.exe.config
+C:\Users\COM\Desktop\C-programming\6week_assignment\Human\Human\bin\Debug\Human.exe
+C:\Users\COM\Desktop\C-programming\6week_assignment\Human\Human\bin\Debug\Human.pdb
+C:\Users\COM\Desktop\C-programming\6week_assignment\Human\Human\obj\Debug\Human.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\C-programming\6week_assignment\Human\Human\obj\Debug\Human.Form1.resources
+C:\Users\COM\Desktop\C-programming\6week_assignment\Human\Human\obj\Debug\Human.Properties.Resources.resources
+C:\Users\COM\Desktop\C-programming\6week_assignment\Human\Human\obj\Debug\Human.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\C-programming\6week_assignment\Human\Human\obj\Debug\Human.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\C-programming\6week_assignment\Human\Human\obj\Debug\Human.exe
+C:\Users\COM\Desktop\C-programming\6week_assignment\Human\Human\obj\Debug\Human.pdb
