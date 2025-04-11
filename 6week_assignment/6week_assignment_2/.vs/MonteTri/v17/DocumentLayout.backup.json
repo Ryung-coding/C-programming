@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KSH\\Desktop\\MonteTri_\uD074\uB798\uC2A4\uD654\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36DB81DE-8899-42FB-8816-0F815053F184}|MonteTri\\MonteTri.csproj|c:\\users\\ksh\\desktop\\montetri_\uD074\uB798\uC2A4\uD654\\montetri\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36DB81DE-8899-42FB-8816-0F815053F184}|MonteTri\\MonteTri.csproj|solutionrelative:montetri\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DB81DE-8899-42FB-8816-0F815053F184}|MonteTri\\MonteTri.csproj|c:\\users\\ksh\\desktop\\montetri_\uD074\uB798\uC2A4\uD654\\montetri\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36DB81DE-8899-42FB-8816-0F815053F184}|MonteTri\\MonteTri.csproj|solutionrelative:montetri\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DB81DE-8899-42FB-8816-0F815053F184}|MonteTri\\MonteTri.csproj|C:\\Users\\KSH\\Desktop\\MonteTri_\uD074\uB798\uC2A4\uD654\\montetri\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36DB81DE-8899-42FB-8816-0F815053F184}|MonteTri\\MonteTri.csproj|solutionrelative:montetri\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Triangle.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Desktop\\MonteTri_\uD074\uB798\uC2A4\uD654\\MonteTri\\Triangle.cs",
+              "RelativeDocumentMoniker": "MonteTri\\Triangle.cs",
+              "ToolTip": "C:\\Users\\KSH\\Desktop\\MonteTri_\uD074\uB798\uC2A4\uD654\\MonteTri\\Triangle.cs",
+              "RelativeToolTip": "MonteTri\\Triangle.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA0wB4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:52:04.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Desktop\\MonteTri_\uD074\uB798\uC2A4\uD654\\MonteTri\\Form1.cs",
+              "RelativeDocumentMoniker": "MonteTri\\Form1.cs",
+              "ToolTip": "C:\\Users\\KSH\\Desktop\\MonteTri_\uD074\uB798\uC2A4\uD654\\MonteTri\\Form1.cs",
+              "RelativeToolTip": "MonteTri\\Form1.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAADEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:40:45.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\KSH\\Desktop\\MonteTri_\uD074\uB798\uC2A4\uD654\\MonteTri\\Form1.cs",
+              "RelativeDocumentMoniker": "MonteTri\\Form1.cs",
+              "ToolTip": "C:\\Users\\KSH\\Desktop\\MonteTri\\MonteTri\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "..\\MonteTri\\MonteTri\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:39:56.621Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -67,7 +67,6 @@ namespace _6week_assignment
         {
             Color col;
             int ngeom = 100;
-            int delta = 30;
             for (int i = 0; i < ngeom; i++)
             {
                 if (rnd.Next(4) == 0) // Circle
@@ -91,13 +90,9 @@ namespace _6week_assignment
                 if (rnd.Next(4) == 3) // Triangle 
                 {
                     col = Color.FromArgb(rnd.Next(200), rnd.Next(200), rnd.Next(200));
-                    int x1 = rnd.Next(500 - delta);
-                    int y1 = rnd.Next(500 - delta);
-                    int x2 = rnd.Next(500 - x1);
-                    int y2 = rnd.Next(500 - x1);
-                    int x3 = rnd.Next(500 - x2);
-                    int y3 = rnd.Next(500 - x2);
-                    Triangle tri = new Triangle(x1, y1, x2, y2, x3, y3, col);
+                    int x0= rnd.Next(500);
+                    int y0 = rnd.Next(500);
+                    Triangle tri = new Triangle(x0, y0, x0 + rnd.Next(30), y0 + rnd.Next(30), x0 + rnd.Next(30), y0 + rnd.Next(30), col);
                     geoms.Add(tri);
                 }
             }
