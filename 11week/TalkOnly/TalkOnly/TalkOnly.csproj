@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EF7A5CA2-7B4B-43B1-B8ED-1F9F08B41497}</ProjectGuid>
+    <ProjectGuid>{6891BBE0-FB28-430B-84A4-5B505FBFCF73}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ChatArduino</RootNamespace>
-    <AssemblyName>ChatArduino</AssemblyName>
+    <RootNamespace>TalkOnly</RootNamespace>
+    <AssemblyName>TalkOnly</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

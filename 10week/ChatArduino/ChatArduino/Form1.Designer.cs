@@ -36,6 +36,7 @@
             this.btnSend = new System.Windows.Forms.Button();
             this.lblCOMs = new System.Windows.Forms.Label();
             this.serialPort = new System.IO.Ports.SerialPort(this.components);
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
             // txtDialog
@@ -83,6 +84,7 @@
             this.btnSend.TabIndex = 3;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // lblCOMs
             // 
@@ -92,6 +94,14 @@
             this.lblCOMs.Size = new System.Drawing.Size(66, 12);
             this.lblCOMs.TabIndex = 4;
             this.lblCOMs.Text = "COM ports";
+            // 
+            // serialPort
+            // 
+            this.serialPort.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort_DataReceived);
+            // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
             // 
             // Form1
             // 
@@ -107,6 +117,7 @@
             this.KeyPreview = true;
             this.Name = "Form1";
             this.Text = "Chat with Arduino";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,6 +132,7 @@
         private System.Windows.Forms.Button btnSend;
         private System.Windows.Forms.Label lblCOMs;
         private System.IO.Ports.SerialPort serialPort;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 
