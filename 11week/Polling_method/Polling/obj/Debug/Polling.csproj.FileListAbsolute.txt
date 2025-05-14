@@ -1,0 +1,10 @@
+C:\Users\COM\Desktop\C-programming\11week\Polling_method\Polling\bin\Debug\Polling.exe.config
+C:\Users\COM\Desktop\C-programming\11week\Polling_method\Polling\bin\Debug\Polling.exe
+C:\Users\COM\Desktop\C-programming\11week\Polling_method\Polling\bin\Debug\Polling.pdb
+C:\Users\COM\Desktop\C-programming\11week\Polling_method\Polling\obj\Debug\Polling.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\C-programming\11week\Polling_method\Polling\obj\Debug\Polling.Form1.resources
+C:\Users\COM\Desktop\C-programming\11week\Polling_method\Polling\obj\Debug\Polling.Properties.Resources.resources
+C:\Users\COM\Desktop\C-programming\11week\Polling_method\Polling\obj\Debug\Polling.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\C-programming\11week\Polling_method\Polling\obj\Debug\Polling.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\C-programming\11week\Polling_method\Polling\obj\Debug\Polling.exe
+C:\Users\COM\Desktop\C-programming\11week\Polling_method\Polling\obj\Debug\Polling.pdb
