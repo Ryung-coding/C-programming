@@ -224,6 +224,55 @@ namespace Polling
             }
             return success;
         }
+
+        public static bool Ask_AB_Data(SerialPort serialPort, out int adval_RI, out int adval_RA)
+        {
+            adval_RI = 0;
+            adval_RA = 0;
+
+            // 수신버퍼청소
+            string dum = SPort.Read(serialPort);
+
+            // 명령송신
+            string st = SPort.sSTX() + "RB" + SPort.sETX();
+            SPort.Send(serialPort, st);
+
+            // 송신시간기록
+            DateTime stime = DateTime.Now;
+
+            // 수신대기
+            int idx1, idx2;
+            bool success = false;
+            string rbuff = "";
+            while (true)
+            {
+                // timeout 검사
+                double dtime = Util.TimeInSeconds(stime);
+                if (dtime > 0.5) return false;
+
+                // 수신버퍼검사
+                rbuff += SPort.Read(serialPort);
+
+                idx1 = rbuff.IndexOf(SPort.sACK());
+                idx2 = rbuff.IndexOf(SPort.sETX());
+
+                if (idx1 >= 0 && idx2 - idx1 == 9)
+                {
+                    if (rbuff.Substring(idx1 + 1, 2) == "RB")
+                    {
+                        string dds_RI = rbuff.Substring(idx1 + 3, 2);
+                        adval_RI = Convert.ToInt32(dds_RI, 16);   // 16진수를 10진수로변환
+                        string dds_RA = rbuff.Substring(idx1 + 6, 3);
+                        adval_RA = Convert.ToInt32(dds_RA, 16);   // 16진수를 10진수로변환
+                        success = true;
+                        break;
+                    }
+                }
+            }
+            return success;
+
+        }
+
     } // end of class
 
 }

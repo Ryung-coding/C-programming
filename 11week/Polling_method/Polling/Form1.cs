@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO.Ports;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -83,7 +84,9 @@ namespace Polling
             setCommLamp(true);
 
             bool[] bits = new bool[8];
-            bool success = TComm.AskDigitalInput(serialPort, bits);
+            int adval_null;
+            //bool success = TComm.AskDigitalInput(serialPort, bits);
+            bool success = Ask_AB_Data(serialPort, out bits, out adval_null);
             if (success)
             {
                 chkButton0.Checked = bits[0];
@@ -97,8 +100,11 @@ namespace Polling
             //---------------------------------------------
             setCommLamp(true);
 
+            bool[] bits_null = new bool[8];
             int adval;
-            success = TComm.AskADData(serialPort, out adval);
+            //success = TComm.AskADData(serialPort, out adval);
+            success = Ask_AB_Data(serialPort, bits_null, out adval);
+
             if (success)
             {
                 txtAD.Text = Convert.ToString(adval);

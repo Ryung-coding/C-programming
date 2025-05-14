@@ -31,9 +31,6 @@ void loop() {
   // gBuff 업데이트
   gBuff = gBuff.substring(ipos1 + 1);
   
-  //=================================
-  //  1. Set DO
-  //=================================
   if (st.substring(0, 2) == "DO")
   {
     String hex = st.substring(2, 4);
@@ -44,25 +41,6 @@ void loop() {
     digitalWrite(led[3], dd & 0x8 ? HIGH : LOW);
     Serial.print(String(cACK) + "DO" + String(cETX));
   }
-  
-  //=================================
-  //  2. Ask RI
-  //=================================
-  else if (st.substring(0, 2) == "RI")
-  {
-    int dec = 0;
-    if(!digitalRead(btn[0])) dec = dec | 0x1;
-    if(!digitalRead(btn[1])) dec = dec | 0x2;
-    if(!digitalRead(btn[2])) dec = dec | 0x4;
-    if(!digitalRead(btn[3])) dec = dec | 0x8;
-    String hex = String(dec, HEX);
-    if(hex.length() == 1) hex = "0" + hex;
-    Serial.print(String(cACK) + "RI" + hex + String(cETX));
-  }
-  
-  //=================================
-  //  3. Set AO
-  //=================================
   else if (st.substring(0, 2) == "AO")
   {
     String hex[4];
@@ -77,25 +55,22 @@ void loop() {
     dec = HexToDec(hex[3]); analogWrite(led[3], dec);
     Serial.print(String(cACK) + "AO" + String(cETX));
   }
-  
-  //=================================
-  //  4. Ask RA
-  //=================================
-  else if (st.substring(0, 2) == "RA")
+
+  else if (st.substring(0, 2) == "RB") //Both 
   {
+    int dec = 0;
     int poten = analogRead(apin);
-    String hex = String(poten, HEX);
-    hex = strPadLeft(hex, 3);
-    Serial.print(String(cACK) + "RA" + hex + String(cETX));
+    if(!digitalRead(btn[0])) dec = dec | 0x1;
+    if(!digitalRead(btn[1])) dec = dec | 0x2;
+    if(!digitalRead(btn[2])) dec = dec | 0x4;
+    if(!digitalRead(btn[3])) dec = dec | 0x8;
+    String hex_RI = String(dec, HEX);
+    String hex_RA = String(poten, HEX);
+    if(hex.length() == 1) hex_RI = "0" + hex_RI; //0000 hex로 된거임
+    hex_RA = strPadLeft(hex_RA, 3); /RA ddd 
+    Serial.print(String(cACK) + "RB" + hex_RI + "," + hex_RA +String(cETX));
   }
-  
-  //=================================
-  //  5. NAK
-  //=================================
-  else
-  {
-    Serial.print(String(sNAK));
-  }
+  else Serial.print(String(sNAK));
 }
    
 //--------------------- user function -----------------------------
