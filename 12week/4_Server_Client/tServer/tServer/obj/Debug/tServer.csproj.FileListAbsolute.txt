@@ -1,0 +1,30 @@
+C:\Users\auksh\Downloads\tServer\tServer\bin\Debug\tServer.exe.config
+C:\Users\auksh\Downloads\tServer\tServer\bin\Debug\tServer.exe
+C:\Users\auksh\Downloads\tServer\tServer\bin\Debug\tServer.pdb
+C:\Users\auksh\Downloads\tServer\tServer\obj\Debug\tServer.csproj.AssemblyReference.cache
+C:\Users\auksh\Downloads\tServer\tServer\obj\Debug\tServer.Form1.resources
+C:\Users\auksh\Downloads\tServer\tServer\obj\Debug\tServer.Properties.Resources.resources
+C:\Users\auksh\Downloads\tServer\tServer\obj\Debug\tServer.csproj.GenerateResource.cache
+C:\Users\auksh\Downloads\tServer\tServer\obj\Debug\tServer.csproj.CoreCompileInputs.cache
+C:\Users\auksh\Downloads\tServer\tServer\obj\Debug\tServer.exe
+C:\Users\auksh\Downloads\tServer\tServer\obj\Debug\tServer.pdb
+C:\Users\KSH\Desktop\새 폴더\tServer\tServer\bin\Debug\tServer.exe.config
+C:\Users\KSH\Desktop\새 폴더\tServer\tServer\bin\Debug\tServer.exe
+C:\Users\KSH\Desktop\새 폴더\tServer\tServer\bin\Debug\tServer.pdb
+C:\Users\KSH\Desktop\새 폴더\tServer\tServer\obj\Debug\tServer.csproj.AssemblyReference.cache
+C:\Users\KSH\Desktop\새 폴더\tServer\tServer\obj\Debug\tServer.Form1.resources
+C:\Users\KSH\Desktop\새 폴더\tServer\tServer\obj\Debug\tServer.Properties.Resources.resources
+C:\Users\KSH\Desktop\새 폴더\tServer\tServer\obj\Debug\tServer.csproj.GenerateResource.cache
+C:\Users\KSH\Desktop\새 폴더\tServer\tServer\obj\Debug\tServer.csproj.CoreCompileInputs.cache
+C:\Users\KSH\Desktop\새 폴더\tServer\tServer\obj\Debug\tServer.exe
+C:\Users\KSH\Desktop\새 폴더\tServer\tServer\obj\Debug\tServer.pdb
+C:\Users\KSH\Desktop\새 폴더\tServer_틀만\tServer\obj\Debug\tServer.csproj.AssemblyReference.cache
+C:\Users\KSH\Desktop\새 폴더\tServer_틀만\tServer\obj\Debug\tServer.Form1.resources
+C:\Users\KSH\Desktop\새 폴더\tServer_틀만\tServer\obj\Debug\tServer.Properties.Resources.resources
+C:\Users\KSH\Desktop\새 폴더\tServer_틀만\tServer\obj\Debug\tServer.csproj.GenerateResource.cache
+C:\Users\KSH\Desktop\새 폴더\tServer_틀만\tServer\obj\Debug\tServer.csproj.CoreCompileInputs.cache
+C:\Users\KSH\Desktop\새 폴더\tServer_틀만\tServer\obj\Debug\tServer.exe
+C:\Users\KSH\Desktop\새 폴더\tServer_틀만\tServer\obj\Debug\tServer.pdb
+C:\Users\KSH\Desktop\새 폴더\tServer_틀만\tServer\bin\Debug\tServer.exe.config
+C:\Users\KSH\Desktop\새 폴더\tServer_틀만\tServer\bin\Debug\tServer.exe
+C:\Users\KSH\Desktop\새 폴더\tServer_틀만\tServer\bin\Debug\tServer.pdb

@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tClient_\uD2C0\uB9CC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCE449CC-9716-43C9-8A15-21138006FA74}|tClient\\tClient.csproj|C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tClient_\uD2C0\uB9CC\\tclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FCE449CC-9716-43C9-8A15-21138006FA74}|tClient\\tClient.csproj|solutionrelative:tclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCE449CC-9716-43C9-8A15-21138006FA74}|tClient\\tClient.csproj|c:\\users\\ksh\\desktop\\\uC0C8 \uD3F4\uB354\\tclient_\uD2C0\uB9CC\\tclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCE449CC-9716-43C9-8A15-21138006FA74}|tClient\\tClient.csproj|solutionrelative:tclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCE449CC-9716-43C9-8A15-21138006FA74}|tClient\\tClient.csproj|c:\\users\\ksh\\desktop\\\uC0C8 \uD3F4\uB354\\tclient_\uD2C0\uB9CC\\tclient\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCE449CC-9716-43C9-8A15-21138006FA74}|tClient\\tClient.csproj|solutionrelative:tclient\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tClient_\uD2C0\uB9CC\\tClient\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "tClient\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tClient_\uD2C0\uB9CC\\tClient\\Form1.Designer.cs",
+              "RelativeToolTip": "tClient\\Form1.Designer.cs",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAswAIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T06:08:25.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tClient_\uD2C0\uB9CC\\tClient\\Form1.cs",
+              "RelativeDocumentMoniker": "tClient\\Form1.cs",
+              "ToolTip": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tClient_\uD2C0\uB9CC\\tClient\\Form1.cs",
+              "RelativeToolTip": "tClient\\Form1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAEwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:19:43.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tClient_\uD2C0\uB9CC\\tClient\\Form1.cs",
+              "RelativeDocumentMoniker": "tClient\\Form1.cs",
+              "ToolTip": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tClient_\uD2C0\uB9CC\\tClient\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "tClient\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T02:56:16.238Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

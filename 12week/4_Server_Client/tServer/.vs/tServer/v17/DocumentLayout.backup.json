@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tServer_\uD2C0\uB9CC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|c:\\users\\ksh\\desktop\\\uC0C8 \uD3F4\uB354\\tserver_\uD2C0\uB9CC\\tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|solutionrelative:tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tServer_\uD2C0\uB9CC\\tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|solutionrelative:tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tServer_\uD2C0\uB9CC\\tServer\\Form1.cs",
+              "RelativeDocumentMoniker": "tServer\\Form1.cs",
+              "ToolTip": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tServer_\uD2C0\uB9CC\\tServer\\Form1.cs",
+              "RelativeToolTip": "tServer\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:05:12.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tServer_\uD2C0\uB9CC\\tServer\\Form1.cs",
+              "RelativeDocumentMoniker": "tServer\\Form1.cs",
+              "ToolTip": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tServer\\tServer\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "..\\tServer\\tServer\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T02:56:14.506Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
