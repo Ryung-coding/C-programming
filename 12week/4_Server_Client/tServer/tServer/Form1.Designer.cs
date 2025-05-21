@@ -236,6 +236,7 @@
             this.btnSend.TabIndex = 83;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // txtSend
             // 
@@ -281,6 +282,7 @@
             // 
             this.timGetRcvMsg.Enabled = true;
             this.timGetRcvMsg.Interval = 10;
+            this.timGetRcvMsg.Tick += new System.EventHandler(this.timGetRcvMsg_Tick);
             // 
             // label1
             // 
@@ -314,6 +316,7 @@
             this.Name = "Form1";
             this.Text = "Server";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.pnlDraw.ResumeLayout(false);

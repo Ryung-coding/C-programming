@@ -113,6 +113,7 @@
             this.btnReadBits.TabIndex = 103;
             this.btnReadBits.Text = "Read Bits";
             this.btnReadBits.UseVisualStyleBackColor = true;
+            this.btnReadBits.Click += new System.EventHandler(this.btnReadBits_Click);
             // 
             // groupBox2
             // 
@@ -327,6 +328,8 @@
             this.pnlDraw.Name = "pnlDraw";
             this.pnlDraw.Size = new System.Drawing.Size(411, 253);
             this.pnlDraw.TabIndex = 97;
+            this.pnlDraw.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlDraw_MouseDown);
+            this.pnlDraw.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pnlDraw_MouseMove);
             // 
             // lblO
             // 
@@ -354,6 +357,7 @@
             this.btnSend.TabIndex = 95;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // txtSend
             // 
@@ -408,10 +412,12 @@
             // 
             this.timGetRcvMsg.Enabled = true;
             this.timGetRcvMsg.Interval = 10;
+            this.timGetRcvMsg.Tick += new System.EventHandler(this.timGetRcvMsg_Tick);
             // 
             // timAskBits
             // 
             this.timAskBits.Enabled = true;
+            this.timAskBits.Tick += new System.EventHandler(this.timAskBits_Tick);
             // 
             // label1
             // 
@@ -448,6 +454,7 @@
             this.Name = "Form1";
             this.Text = "Client";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLamp07)).EndInit();

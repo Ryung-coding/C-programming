@@ -1,15 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Net;
-using System.Net.Sockets;
 
 
 namespace tClient
@@ -89,6 +81,78 @@ namespace tClient
 
             if (clientComm == null) clientComm = new TClient();
             clientComm.ClientBeginConnect(serverIP, 5002, clientIP);   // 1024~65535 추천
+        }
+
+        private void btnSend_Click(object sender, EventArgs e)
+        {
+            if (clientChat == null) return;
+
+            string st = txtSend.Text.Trim();
+            if (st.Length <= 0) return;
+
+            clientChat.ClientSend(st + "\r\n");
+            txtDialog.Text += "[Me] " + st + "\r\n";
+            txtSend.Text = "";
+        }
+
+        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == '\r') btnSend.PerformClick();
+        }
+
+        private void timGetRcvMsg_Tick(object sender, EventArgs e)
+        {
+            if (clientChat == null) return;
+            string st = clientChat.GetRcvMsg();
+            if (st.Length > 0) txtDialog.Text += st;
+        }
+
+        private void pnlDraw_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button != MouseButtons.Left) return;
+            lblO.Left = e.X;
+            lblO.Top = e.Y;
+
+            string st = TSocket.sSTX() + Convert.ToString(e.X) +
+                        "," + Convert.ToString(e.Y) + TSocket.sETX();
+            clientCopy.ClientSend(st);
+        }
+
+        private void pnlDraw_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button != MouseButtons.Left) return;
+            lblO.Left = e.X;
+            lblO.Top = e.Y;
+
+            string st = TSocket.sSTX() + Convert.ToString(e.X) +
+                        "," + Convert.ToString(e.Y) + TSocket.sETX();
+            clientCopy.ClientSend(st);
+        }
+
+        private void btnReadBits_Click(object sender, EventArgs e)
+        {
+            if (clientComm == null) return;
+            if (clientComm.ClientStatus() != csConnStatus.Connected) return;
+
+            bool success = TComm.AskDigitalInput(clientComm, out bool[] bits);
+            if (success)
+            {
+                picLamp00.BackColor = bits[0] ? Color.GreenYellow : Color.Gray;
+                picLamp01.BackColor = bits[1] ? Color.GreenYellow : Color.Gray;
+                picLamp02.BackColor = bits[2] ? Color.GreenYellow : Color.Gray;
+                picLamp03.BackColor = bits[3] ? Color.GreenYellow : Color.Gray;
+                picLamp04.BackColor = bits[4] ? Color.GreenYellow : Color.Gray;
+                picLamp05.BackColor = bits[5] ? Color.GreenYellow : Color.Gray;
+                picLamp06.BackColor = bits[6] ? Color.GreenYellow : Color.Gray;
+                picLamp07.BackColor = bits[7] ? Color.GreenYellow : Color.Gray;
+            }
+            lblCommOK.Text =
+                        Convert.ToString(Convert.ToInt32(lblCommOK.Text) + 1);
+        }
+
+        private void timAskBits_Tick(object sender, EventArgs e)
+        {
+            btnReadBits.PerformClick();
         }
     }
 }
