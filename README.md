@@ -9,7 +9,7 @@
 <p>
         <code>C:\Users\COM\Desktop\C-programming\13week\Labeling</code> 경로에 위치한 
         <strong>13주차 라벨링 프로젝트</strong>의 경우, 
-        <code>packages</code> 폴더가 제거되어 도구탭>>NuGet 패키지관리자>>솔루션용NuGet관리 탭으로 들어가 다시 설치
+        <code>packages</code> 폴더가 제거되어 <code>도구탭</code>  >>  <code>NuGet 패키지관리자</code> >>  <code>솔루션용NuGet관리 </code> 탭으로 들어가 다시 설치
     </p>
 
 <h2>1. NuGet 패키지를 통한 OpenCV 재설치 방법</h2>
