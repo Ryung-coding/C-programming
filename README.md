@@ -2,7 +2,6 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>13주차 라벨링 프로젝트 설정 안내</title>
 </head>
 <body>
     <h1>13주차 라벨링 프로젝트 환경 재설정 안내</h1>
