@@ -9,6 +9,7 @@ namespace Labeling
     public partial class Form1 : Form
     {
         VideoCapture gCap;
+        int length = 0;
         public Form1()
         {
             InitializeComponent();
@@ -153,31 +154,32 @@ namespace Labeling
 
             // 윤곽선 그리기
             {
-                // 엣지를 그릴 검은색 배경의 3채널 이미지 만들기
-                Mat edgeOutput = new Mat(matBin.Size(), MatType.CV_8UC3, Scalar.Black);
-                // 그리기
-                for (int i = 0; i < contours.Length; i++)
-                {
-                    Cv2.DrawContours(edgeOutput, contours, i, new Scalar(255, 255, 255), 1);
-                }
-                picResult.Image = edgeOutput.ToBitmap();
+                //// 엣지를 그릴 검은색 배경의 3채널 이미지 만들기
+                //Mat edgeOutput = new Mat(matBin.Size(), MatType.CV_8UC3, Scalar.Black);
+                //// 그리기
+                //for (int i = 0; i < contours.Length; i++)
+                //{
+                //    Cv2.DrawContours(edgeOutput, contours, i, new Scalar(255, 255, 255), 1);
+                //}
+                //picResult.Image = edgeOutput.ToBitmap();
             }
             // 혹은 아래와 같이 Graphics를 이용하여 그릴수도 있음
             // (자료구조를 파악할 수 있지만 느림)
             {
-                //Graphics grp = picResult.CreateGraphics();
-                //grp.Clear(Color.Black);
-                //for (int i = 0; i < contours.Length; i++)
-                //{
-                //    for (int j = 0; j < contours[i].Length - 1; j++)
-                //    {
-                //        //grp.DrawEllipse(new Pen(Color.White), contours[i][j].X, contours[i][j].Y, 1, 1);
-                //        grp.DrawLine(new Pen(Color.White), contours[i][j].X, contours[i][j].Y,
-                //                                           contours[i][j + 1].X, contours[i][j + 1].Y);
-                //    }
-                //    grp.DrawLine(new Pen(Color.White), contours[i][contours[i].Length - 1].X, contours[i][contours[i].Length - 1].Y,
-                //                                       contours[i][0].X, contours[i][0].Y);
-                //}
+                Graphics grp = picResult.CreateGraphics();
+                grp.Clear(Color.Black);
+                for (int i = 0; i < contours.Length; i++)
+                {
+                    for (int j = 0; j < contours[i].Length - 1; j++)
+                    {
+                        //grp.DrawEllipse(new Pen(Color.White), contours[i][j].X, contours[i][j].Y, 1, 1);
+                        grp.DrawLine(new Pen(Color.White), contours[i][j].X, contours[i][j].Y,contours[i][j + 1].X, contours[i][j + 1].Y);
+                        length += (contours[i][j + 1].X - contours[i][j].X) * (contours[i][j + 1].X - contours[i][j].X) + (contours[i][j + 1].Y - contours[i][j].Y) * (contours[i][j + 1].Y - contours[i][j].Y);
+                    }
+                    grp.DrawLine(new Pen(Color.White), contours[i][contours[i].Length - 1].X, contours[i][contours[i].Length - 1].Y,contours[i][0].X, contours[i][0].Y);
+                    length += (contours[i][contours[i].Length - 1].X - contours[i][0].X) * (contours[i][contours[i].Length - 1].X - contours[i][0].X) + (contours[i][contours[i].Length - 1].Y - contours[i][0].Y) * (contours[i][contours[i].Length - 1].Y - contours[i][0].Y);
+                    txtLabelingResult.Text = "길이 " + string.Format("{0:0.000}", length) + "\r\n" + "\r\n";
+                }
             }
         }
 
@@ -195,7 +197,8 @@ namespace Labeling
             Mat labels = new Mat();
             Mat stats = new Mat();
             Mat centroids = new Mat();
-            int nLabels = Cv2.ConnectedComponentsWithStats(matBin, labels, stats, centroids);
+            int nLabels = Cv2.ConnectedComponentsWithStats(matBin, labels, stats, centroids); 
+            //이게 군집을 잡아주는 함수다
 
             double dtime = Util.TimeInSeconds(stime);
 
