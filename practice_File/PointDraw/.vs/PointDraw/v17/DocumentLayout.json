@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\PointDraw\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BE26E6-DE13-433F-9665-FE3F09AC437A}|PointDraw\\PointDraw.csproj|c:\\users\\master\\desktop\\seoultech\\c-programming\\practice_file\\pointdraw\\pointdraw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BE26E6-DE13-433F-9665-FE3F09AC437A}|PointDraw\\PointDraw.csproj|solutionrelative:pointdraw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BE26E6-DE13-433F-9665-FE3F09AC437A}|PointDraw\\PointDraw.csproj|C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\PointDraw\\pointdraw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D9BE26E6-DE13-433F-9665-FE3F09AC437A}|PointDraw\\PointDraw.csproj|solutionrelative:pointdraw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\PointDraw\\PointDraw\\Form1.cs",
+              "RelativeDocumentMoniker": "PointDraw\\Form1.cs",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\PointDraw\\PointDraw\\Form1.cs",
+              "RelativeToolTip": "PointDraw\\Form1.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAIwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T06:08:35.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\PointDraw\\PointDraw\\Form1.cs",
+              "RelativeDocumentMoniker": "PointDraw\\Form1.cs",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\PointDraw\\PointDraw\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "PointDraw\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T06:01:19.62Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -17,26 +17,47 @@ namespace practice_zip
             InitializeComponent();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        // Mouse Down은 눌렀을때 한번이다 누르고 꾸욱 되는게 아님!
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e) 
         {
-            int num = Convert.ToInt32(label1.Text);
-            label1.Text = (--num).ToString();
+            //Graphics grp = pictureBox1.CreateGraphics();
+            //Color col = Color.Black;
+            //Pen pen = new Pen(col);
+            //if(radio_red.Checked ) col = Color.Red;
+            //else if(radio_green.Checked ) col = Color.Green;
+            //else if(radio_blue.Checked ) col = Color.Blue;
 
-            if (num == 0)
+            //grp.DrawEllipse(pen, e.X, e.Y, 1, 1);
+        }
+
+
+        int x_past = 0;
+        int y_past = 0;
+
+        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button != MouseButtons.Left)
             {
-                timer1.Enabled = false; //이거 안까먹게 조심
-                MessageBox.Show("bye");
-                Application.Exit();
+                x_past = e.X;
+                y_past = e.Y; 
+            }
+
+            Graphics grp = pictureBox1.CreateGraphics();
+            Color col = Color.Black;
+            
+            if (radio_red.Checked) col = Color.Red;
+            else if (radio_green.Checked) col = Color.Green;
+            else if (radio_blue.Checked) col = Color.Blue;
+            Pen pen = new Pen(col); //정의되는 위치 조심하기
+
+            if (e.Button == MouseButtons.Left)
+            {
+                //grp.DrawEllipse(pen, e.X, e.Y, 1, 1);
+                grp.DrawLine(pen, e.X, e.Y, x_past, y_past);
+                x_past = e.X;
+                y_past = e.Y;
             }
 
         }
-
-        private void label1_MouseMove(object sender, MouseEventArgs e)
-        {
-            Random rnd = new Random();
-            label1.Left = rnd.Next(this.ClientSize.Width - label1.Width);
-            label1.Top = rnd.Next(this.ClientSize.Height - label1.Height);  
-        }
     }
 }
-

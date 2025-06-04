@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointDraw", "PointDraw\PointDraw.csproj", "{D9BE26E6-DE13-433F-9665-FE3F09AC437A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9BE26E6-DE13-433F-9665-FE3F09AC437A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BE26E6-DE13-433F-9665-FE3F09AC437A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9BE26E6-DE13-433F-9665-FE3F09AC437A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BE26E6-DE13-433F-9665-FE3F09AC437A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E73C334B-1F33-421E-8434-5455C83230B0}
+	EndGlobalSection
+EndGlobal
