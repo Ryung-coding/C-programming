@@ -1,0 +1,10 @@
+C:\Users\COM\Desktop\C-programming\practice_File\P1_addOne\P1_addOne\bin\Debug\P1_addOne.exe.config
+C:\Users\COM\Desktop\C-programming\practice_File\P1_addOne\P1_addOne\bin\Debug\P1_addOne.exe
+C:\Users\COM\Desktop\C-programming\practice_File\P1_addOne\P1_addOne\bin\Debug\P1_addOne.pdb
+C:\Users\COM\Desktop\C-programming\practice_File\P1_addOne\P1_addOne\obj\Debug\P1_addOne.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\C-programming\practice_File\P1_addOne\P1_addOne\obj\Debug\P1_addOne.Form1.resources
+C:\Users\COM\Desktop\C-programming\practice_File\P1_addOne\P1_addOne\obj\Debug\P1_addOne.Properties.Resources.resources
+C:\Users\COM\Desktop\C-programming\practice_File\P1_addOne\P1_addOne\obj\Debug\P1_addOne.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\C-programming\practice_File\P1_addOne\P1_addOne\obj\Debug\P1_addOne.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\C-programming\practice_File\P1_addOne\P1_addOne\obj\Debug\P1_addOne.exe
+C:\Users\COM\Desktop\C-programming\practice_File\P1_addOne\P1_addOne\obj\Debug\P1_addOne.pdb
