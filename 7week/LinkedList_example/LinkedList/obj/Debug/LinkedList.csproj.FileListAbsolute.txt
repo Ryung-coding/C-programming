@@ -28,3 +28,13 @@ C:\Users\COM\Desktop\C-programming\7week\LinkedList_example\LinkedList\obj\Debug
 C:\Users\COM\Desktop\C-programming\7week\LinkedList_example\LinkedList\obj\Debug\LinkedList.csproj.CoreCompileInputs.cache
 C:\Users\COM\Desktop\C-programming\7week\LinkedList_example\LinkedList\obj\Debug\LinkedList.exe
 C:\Users\COM\Desktop\C-programming\7week\LinkedList_example\LinkedList\obj\Debug\LinkedList.pdb
+C:\Users\Master\Desktop\seoultech\C-programming\7week\LinkedList_example\LinkedList\bin\Debug\LinkedList.exe.config
+C:\Users\Master\Desktop\seoultech\C-programming\7week\LinkedList_example\LinkedList\bin\Debug\LinkedList.exe
+C:\Users\Master\Desktop\seoultech\C-programming\7week\LinkedList_example\LinkedList\bin\Debug\LinkedList.pdb
+C:\Users\Master\Desktop\seoultech\C-programming\7week\LinkedList_example\LinkedList\obj\Debug\LinkedList.csproj.AssemblyReference.cache
+C:\Users\Master\Desktop\seoultech\C-programming\7week\LinkedList_example\LinkedList\obj\Debug\LinkedList.Form1.resources
+C:\Users\Master\Desktop\seoultech\C-programming\7week\LinkedList_example\LinkedList\obj\Debug\LinkedList.Properties.Resources.resources
+C:\Users\Master\Desktop\seoultech\C-programming\7week\LinkedList_example\LinkedList\obj\Debug\LinkedList.csproj.GenerateResource.cache
+C:\Users\Master\Desktop\seoultech\C-programming\7week\LinkedList_example\LinkedList\obj\Debug\LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\Master\Desktop\seoultech\C-programming\7week\LinkedList_example\LinkedList\obj\Debug\LinkedList.exe
+C:\Users\Master\Desktop\seoultech\C-programming\7week\LinkedList_example\LinkedList\obj\Debug\LinkedList.pdb

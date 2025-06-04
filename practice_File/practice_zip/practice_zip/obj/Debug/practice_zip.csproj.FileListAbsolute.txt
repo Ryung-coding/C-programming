@@ -1,0 +1,10 @@
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\practice_zip\practice_zip\bin\Debug\practice_zip.exe.config
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\practice_zip\practice_zip\bin\Debug\practice_zip.exe
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\practice_zip\practice_zip\bin\Debug\practice_zip.pdb
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\practice_zip\practice_zip\obj\Debug\practice_zip.csproj.AssemblyReference.cache
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\practice_zip\practice_zip\obj\Debug\practice_zip.Form1.resources
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\practice_zip\practice_zip\obj\Debug\practice_zip.Properties.Resources.resources
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\practice_zip\practice_zip\obj\Debug\practice_zip.csproj.GenerateResource.cache
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\practice_zip\practice_zip\obj\Debug\practice_zip.csproj.CoreCompileInputs.cache
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\practice_zip\practice_zip\obj\Debug\practice_zip.exe
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\practice_zip\practice_zip\obj\Debug\practice_zip.pdb

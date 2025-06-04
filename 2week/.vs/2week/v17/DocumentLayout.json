@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\2week\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56634FB3-6568-4DE0-A02D-56F21B17D4F8}|2week\\2week.csproj|c:\\users\\master\\desktop\\seoultech\\c-programming\\2week\\2week\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56634FB3-6568-4DE0-A02D-56F21B17D4F8}|2week\\2week.csproj|solutionrelative:2week\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56634FB3-6568-4DE0-A02D-56F21B17D4F8}|2week\\2week.csproj|C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\2week\\2week\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56634FB3-6568-4DE0-A02D-56F21B17D4F8}|2week\\2week.csproj|solutionrelative:2week\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\2week\\2week\\Form1.cs",
+              "RelativeDocumentMoniker": "2week\\Form1.cs",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\2week\\2week\\Form1.cs",
+              "RelativeToolTip": "2week\\Form1.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwBkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:31:11.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\2week\\2week\\Form1.cs",
+              "RelativeDocumentMoniker": "2week\\Form1.cs",
+              "ToolTip": "C:\\Users\\COM\\Desktop\\C-programming\\2week\\2week\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\COM\\Desktop\\C-programming\\2week\\2week\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-06-04T08:31:11.821Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

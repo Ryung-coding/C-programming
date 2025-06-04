@@ -52,6 +52,32 @@ namespace LinkedList
             head = null;
         }
 
+        public void Add_at_mid(Node node, int node_position)
+        {
+            Node add_postion_node = head;
+            for (int i = 1; i < node_position; i++)
+            {
+                add_postion_node = add_postion_node.Next;
+            }
+            Node buf = add_postion_node.Next;
+            add_postion_node.Next = node;
+            node.Next = buf;
+        }
+
+        public void Add_at_tail(Node node)
+        {
+            for (Node n = head; n != null;n=n.Next)
+            {
+                if(n.Next == null)
+                {
+                    n.Next = node;
+                    break;  
+                }
+            }
+        }
+
+
+
         public void Append(Node node)
         {
             if (head == null)
@@ -99,10 +125,16 @@ namespace LinkedList
             return null;
         }
 
-        //public SimpleList Reverse()
-        //{
+        public SimpleList Reverse()
+        {
+            SimpleList reverse_list = new SimpleList();
 
-        //}
+            for (Node n = head; n != null; n = n.Next)
+            {
+                reverse_list.Add_at_header(n);
+            }
+            return reverse_list;
+        }
 
     }
 }

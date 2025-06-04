@@ -48,13 +48,13 @@ namespace LinkedList
         private void btnRemove_Click(object sender, EventArgs e)
         {
             Node removed_node = simplelist.FindNodeOfData(Convert.ToInt32(txtRemoveData.Text));
-            simplelist.Remove(removed_node);
+            simplelist.Add_at_tail(new Node(10));
             txtPrint.Text = simplelist.Print();
         }
 
         private void btnReverse_Click(object sender, EventArgs e)
         {
-            //simplelist = simplelist.Reverse();
+            simplelist = simplelist.Reverse();
             txtPrint.Text = simplelist.Print();
         }
     }
