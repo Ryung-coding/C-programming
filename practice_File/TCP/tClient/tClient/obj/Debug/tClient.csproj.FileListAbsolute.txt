@@ -1,0 +1,30 @@
+C:\Users\auksh\Downloads\tClient\tClient\bin\Debug\tClient.exe.config
+C:\Users\auksh\Downloads\tClient\tClient\bin\Debug\tClient.exe
+C:\Users\auksh\Downloads\tClient\tClient\bin\Debug\tClient.pdb
+C:\Users\auksh\Downloads\tClient\tClient\obj\Debug\tClient.csproj.AssemblyReference.cache
+C:\Users\auksh\Downloads\tClient\tClient\obj\Debug\tClient.Form1.resources
+C:\Users\auksh\Downloads\tClient\tClient\obj\Debug\tClient.Properties.Resources.resources
+C:\Users\auksh\Downloads\tClient\tClient\obj\Debug\tClient.csproj.GenerateResource.cache
+C:\Users\auksh\Downloads\tClient\tClient\obj\Debug\tClient.csproj.CoreCompileInputs.cache
+C:\Users\auksh\Downloads\tClient\tClient\obj\Debug\tClient.exe
+C:\Users\auksh\Downloads\tClient\tClient\obj\Debug\tClient.pdb
+C:\Users\KSH\Desktop\새 폴더\tClient\tClient\obj\Debug\tClient.csproj.AssemblyReference.cache
+C:\Users\KSH\Desktop\새 폴더\tClient\tClient\obj\Debug\tClient.Form1.resources
+C:\Users\KSH\Desktop\새 폴더\tClient\tClient\obj\Debug\tClient.Properties.Resources.resources
+C:\Users\KSH\Desktop\새 폴더\tClient\tClient\obj\Debug\tClient.csproj.GenerateResource.cache
+C:\Users\KSH\Desktop\새 폴더\tClient\tClient\obj\Debug\tClient.csproj.CoreCompileInputs.cache
+C:\Users\KSH\Desktop\새 폴더\tClient\tClient\obj\Debug\tClient.exe
+C:\Users\KSH\Desktop\새 폴더\tClient\tClient\obj\Debug\tClient.pdb
+C:\Users\KSH\Desktop\새 폴더\tClient\tClient\bin\Debug\tClient.exe.config
+C:\Users\KSH\Desktop\새 폴더\tClient\tClient\bin\Debug\tClient.exe
+C:\Users\KSH\Desktop\새 폴더\tClient\tClient\bin\Debug\tClient.pdb
+C:\Users\KSH\Desktop\새 폴더\tClient_틀만\tClient\bin\Debug\tClient.exe.config
+C:\Users\KSH\Desktop\새 폴더\tClient_틀만\tClient\bin\Debug\tClient.exe
+C:\Users\KSH\Desktop\새 폴더\tClient_틀만\tClient\bin\Debug\tClient.pdb
+C:\Users\KSH\Desktop\새 폴더\tClient_틀만\tClient\obj\Debug\tClient.csproj.AssemblyReference.cache
+C:\Users\KSH\Desktop\새 폴더\tClient_틀만\tClient\obj\Debug\tClient.Form1.resources
+C:\Users\KSH\Desktop\새 폴더\tClient_틀만\tClient\obj\Debug\tClient.Properties.Resources.resources
+C:\Users\KSH\Desktop\새 폴더\tClient_틀만\tClient\obj\Debug\tClient.csproj.GenerateResource.cache
+C:\Users\KSH\Desktop\새 폴더\tClient_틀만\tClient\obj\Debug\tClient.csproj.CoreCompileInputs.cache
+C:\Users\KSH\Desktop\새 폴더\tClient_틀만\tClient\obj\Debug\tClient.exe
+C:\Users\KSH\Desktop\새 폴더\tClient_틀만\tClient\obj\Debug\tClient.pdb

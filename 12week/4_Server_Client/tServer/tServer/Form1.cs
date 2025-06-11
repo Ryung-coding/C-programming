@@ -79,8 +79,7 @@ namespace tServer
             if (serverCopy == null) serverCopy = new TServer(CirclePosDataArrived);
             serverCopy.ServerStartListen(myIP, 5001);   // 1024~65535 추천
 
-            if (serverComm == null) serverComm = new TServer(AskingBitsDataArrived);
-            serverComm.ServerStartListen(myIP, 5002);   // 1024~65535 추천
+      
         }
 
         private void CirclePosDataArrived()
@@ -165,5 +164,9 @@ namespace tServer
         {
             if (e.KeyChar == '\r') btnSend.PerformClick();
         }
+
+        private double add(double x, double y)
+        { return x + y; }
+
     }
 }

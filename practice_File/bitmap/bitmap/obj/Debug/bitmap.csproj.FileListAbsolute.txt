@@ -1,0 +1,10 @@
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\bitmap\bitmap\bin\Debug\bitmap.exe.config
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\bitmap\bitmap\bin\Debug\bitmap.exe
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\bitmap\bitmap\bin\Debug\bitmap.pdb
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\bitmap\bitmap\obj\Debug\bitmap.csproj.AssemblyReference.cache
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\bitmap\bitmap\obj\Debug\bitmap.Form1.resources
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\bitmap\bitmap\obj\Debug\bitmap.Properties.Resources.resources
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\bitmap\bitmap\obj\Debug\bitmap.csproj.GenerateResource.cache
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\bitmap\bitmap\obj\Debug\bitmap.csproj.CoreCompileInputs.cache
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\bitmap\bitmap\obj\Debug\bitmap.exe
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\bitmap\bitmap\obj\Debug\bitmap.pdb

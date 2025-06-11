@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\10_CP_AnalogClock\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C948609D-A343-4135-BE9F-7A7C75695B1F}|AnalogClock\\AnalogClock.csproj|c:\\users\\master\\desktop\\seoultech\\c-programming\\practice_file\\10_cp_analogclock\\analogclock\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C948609D-A343-4135-BE9F-7A7C75695B1F}|AnalogClock\\AnalogClock.csproj|solutionrelative:analogclock\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C948609D-A343-4135-BE9F-7A7C75695B1F}|AnalogClock\\AnalogClock.csproj|c:\\users\\master\\desktop\\seoultech\\c-programming\\practice_file\\10_cp_analogclock\\analogclock\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C948609D-A343-4135-BE9F-7A7C75695B1F}|AnalogClock\\AnalogClock.csproj|solutionrelative:analogclock\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\10_CP_AnalogClock\\AnalogClock\\Form1.cs",
+              "RelativeDocumentMoniker": "AnalogClock\\Form1.cs",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\10_CP_AnalogClock\\AnalogClock\\Form1.cs",
+              "RelativeToolTip": "AnalogClock\\Form1.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAxwCAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:02:58.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\10_CP_AnalogClock\\AnalogClock\\Form1.cs",
+              "RelativeDocumentMoniker": "AnalogClock\\Form1.cs",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\10_CP_AnalogClock\\AnalogClock\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "AnalogClock\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T04:56:46.516Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tServer_\uD2C0\uB9CC\\",
+  "WorkspaceRootPath": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\12week\\4_Server_Client\\tServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|c:\\users\\ksh\\desktop\\\uC0C8 \uD3F4\uB354\\tserver_\uD2C0\uB9CC\\tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\12week\\4_Server_Client\\tServer\\tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|solutionrelative:tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|c:\\users\\master\\desktop\\seoultech\\c-programming\\12week\\4_server_client\\tserver\\tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|solutionrelative:tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tServer_\uD2C0\uB9CC\\tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|solutionrelative:tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\12week\\4_Server_Client\\tServer\\tserver\\tcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|solutionrelative:tserver\\tcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +22,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tServer_\uD2C0\uB9CC\\tServer\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\12week\\4_Server_Client\\tServer\\tServer\\Form1.cs",
               "RelativeDocumentMoniker": "tServer\\Form1.cs",
-              "ToolTip": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tServer_\uD2C0\uB9CC\\tServer\\Form1.cs",
-              "RelativeToolTip": "tServer\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\12week\\4_Server_Client\\tServer\\tServer\\Form1.cs*",
+              "RelativeToolTip": "tServer\\Form1.cs*",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAwEcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T03:05:12.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "TCP.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\12week\\4_Server_Client\\tServer\\tServer\\TCP.cs",
+              "RelativeDocumentMoniker": "tServer\\TCP.cs",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\12week\\4_Server_Client\\tServer\\tServer\\TCP.cs",
+              "RelativeToolTip": "tServer\\TCP.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAADYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T03:10:52.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tServer_\uD2C0\uB9CC\\tServer\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\12week\\4_Server_Client\\tServer\\tServer\\Form1.cs",
               "RelativeDocumentMoniker": "tServer\\Form1.cs",
-              "ToolTip": "C:\\Users\\KSH\\Desktop\\\uC0C8 \uD3F4\uB354\\tServer_\uD2C0\uB9CC\\tServer\\Form1.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "tServer\\Form1.cs [\uB514\uC790\uC778]",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\12week\\4_Server_Client\\tServer\\tServer\\Form1.cs [\uB514\uC790\uC778]*",
+              "RelativeToolTip": "tServer\\Form1.cs [\uB514\uC790\uC778]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T02:56:14.506Z",
               "EditorCaption": " [\uB514\uC790\uC778]"

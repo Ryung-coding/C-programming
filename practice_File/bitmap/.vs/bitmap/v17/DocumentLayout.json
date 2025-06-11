@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\bitmap\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0FD85B-62FB-4F67-9A18-444C76BF88B2}|bitmap\\bitmap.csproj|c:\\users\\master\\desktop\\seoultech\\c-programming\\practice_file\\bitmap\\bitmap\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0FD85B-62FB-4F67-9A18-444C76BF88B2}|bitmap\\bitmap.csproj|solutionrelative:bitmap\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0FD85B-62FB-4F67-9A18-444C76BF88B2}|bitmap\\bitmap.csproj|C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\bitmap\\bitmap\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C0FD85B-62FB-4F67-9A18-444C76BF88B2}|bitmap\\bitmap.csproj|solutionrelative:bitmap\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0FD85B-62FB-4F67-9A18-444C76BF88B2}|bitmap\\bitmap.csproj|c:\\users\\master\\desktop\\seoultech\\c-programming\\practice_file\\bitmap\\bitmap\\tdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0FD85B-62FB-4F67-9A18-444C76BF88B2}|bitmap\\bitmap.csproj|solutionrelative:bitmap\\tdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TDraw.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\bitmap\\bitmap\\TDraw.cs",
+              "RelativeDocumentMoniker": "bitmap\\TDraw.cs",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\bitmap\\bitmap\\TDraw.cs",
+              "RelativeToolTip": "bitmap\\TDraw.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAkwIAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T08:06:13.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\bitmap\\bitmap\\Form1.cs",
+              "RelativeDocumentMoniker": "bitmap\\Form1.cs",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\bitmap\\bitmap\\Form1.cs",
+              "RelativeToolTip": "bitmap\\Form1.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAADIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:10:01.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\bitmap\\bitmap\\Form1.cs",
+              "RelativeDocumentMoniker": "bitmap\\Form1.cs",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\bitmap\\bitmap\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "bitmap\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:09:12.318Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

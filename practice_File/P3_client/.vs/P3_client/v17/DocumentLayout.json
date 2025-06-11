@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\P3_client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27E375E1-9670-4062-B3C0-D6CAAAF2F817}|P3_client\\P3_client.csproj|c:\\users\\master\\desktop\\seoultech\\c-programming\\practice_file\\p3_client\\p3_client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27E375E1-9670-4062-B3C0-D6CAAAF2F817}|P3_client\\P3_client.csproj|solutionrelative:p3_client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E375E1-9670-4062-B3C0-D6CAAAF2F817}|P3_client\\P3_client.csproj|C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\P3_client\\p3_client\\tdraws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27E375E1-9670-4062-B3C0-D6CAAAF2F817}|P3_client\\P3_client.csproj|solutionrelative:p3_client\\tdraws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E375E1-9670-4062-B3C0-D6CAAAF2F817}|P3_client\\P3_client.csproj|C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\P3_client\\p3_client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{27E375E1-9670-4062-B3C0-D6CAAAF2F817}|P3_client\\P3_client.csproj|solutionrelative:p3_client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E375E1-9670-4062-B3C0-D6CAAAF2F817}|P3_client\\P3_client.csproj|C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\P3_client\\p3_client\\tcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27E375E1-9670-4062-B3C0-D6CAAAF2F817}|P3_client\\P3_client.csproj|solutionrelative:p3_client\\tcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\P3_client\\P3_client\\Form1.cs",
+              "RelativeDocumentMoniker": "P3_client\\Form1.cs",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\P3_client\\P3_client\\Form1.cs",
+              "RelativeToolTip": "P3_client\\Form1.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAqwHUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T14:49:16.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TDraws.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\P3_client\\P3_client\\TDraws.cs",
+              "RelativeDocumentMoniker": "P3_client\\TDraws.cs",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\P3_client\\P3_client\\TDraws.cs",
+              "RelativeToolTip": "P3_client\\TDraws.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAiwIsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T15:06:39.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\P3_client\\P3_client\\Form1.cs",
+              "RelativeDocumentMoniker": "P3_client\\Form1.cs",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\P3_client\\P3_client\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "P3_client\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T14:47:17.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TCP.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\P3_client\\P3_client\\TCP.cs",
+              "RelativeDocumentMoniker": "P3_client\\TCP.cs",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\practice_File\\P3_client\\P3_client\\TCP.cs",
+              "RelativeToolTip": "P3_client\\TCP.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAowBIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T14:49:27.386Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_2\P2_2\bin\Debug\P2_2.exe.config
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_2\P2_2\bin\Debug\P2_2.exe
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_2\P2_2\bin\Debug\P2_2.pdb
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_2\P2_2\obj\Debug\P2_2.csproj.AssemblyReference.cache
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_2\P2_2\obj\Debug\P2_2.Form1.resources
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_2\P2_2\obj\Debug\P2_2.Properties.Resources.resources
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_2\P2_2\obj\Debug\P2_2.csproj.GenerateResource.cache
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_2\P2_2\obj\Debug\P2_2.csproj.CoreCompileInputs.cache
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_2\P2_2\obj\Debug\P2_2.exe
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_2\P2_2\obj\Debug\P2_2.pdb

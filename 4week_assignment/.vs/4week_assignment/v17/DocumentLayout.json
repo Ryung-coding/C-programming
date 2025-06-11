@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Master\\Desktop\\C-programming\\4week_assignment\\",
+  "WorkspaceRootPath": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\4week_assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4CBB571B-A6E1-4E61-B950-B8930F7E9899}|4week_assignment\\4week_assignment.csproj|c:\\users\\master\\desktop\\c-programming\\4week_assignment\\4week_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4CBB571B-A6E1-4E61-B950-B8930F7E9899}|4week_assignment\\4week_assignment.csproj|c:\\users\\master\\desktop\\seoultech\\c-programming\\4week_assignment\\4week_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CBB571B-A6E1-4E61-B950-B8930F7E9899}|4week_assignment\\4week_assignment.csproj|solutionrelative:4week_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CBB571B-A6E1-4E61-B950-B8930F7E9899}|4week_assignment\\4week_assignment.csproj|c:\\users\\master\\desktop\\c-programming\\4week_assignment\\4week_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4CBB571B-A6E1-4E61-B950-B8930F7E9899}|4week_assignment\\4week_assignment.csproj|C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\4week_assignment\\4week_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4CBB571B-A6E1-4E61-B950-B8930F7E9899}|4week_assignment\\4week_assignment.csproj|solutionrelative:4week_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\C-programming\\4week_assignment\\4week_assignment\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\4week_assignment\\4week_assignment\\Form1.cs",
               "RelativeDocumentMoniker": "4week_assignment\\Form1.cs",
-              "ToolTip": "C:\\Users\\Master\\Desktop\\C-programming\\4week_assignment\\4week_assignment\\Form1.cs",
+              "ToolTip": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\4week_assignment\\4week_assignment\\Form1.cs",
               "RelativeToolTip": "4week_assignment\\Form1.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAswEoAAADbAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAADYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T06:12:21.173Z",
               "EditorCaption": ""
@@ -37,13 +37,12 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\C-programming\\4week_assignment\\4week_assignment\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\Desktop\\seoultech\\C-programming\\4week_assignment\\4week_assignment\\Form1.cs",
               "RelativeDocumentMoniker": "4week_assignment\\Form1.cs",
               "ToolTip": "C:\\Users\\Master\\Desktop\\C-programming\\4week_assignment\\4week_assignment\\Form1.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "4week_assignment\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "..\\..\\..\\C-programming\\4week_assignment\\4week_assignment\\Form1.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T06:12:18.273Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
+              "WhenOpened": "2025-03-30T06:12:18.273Z"
             }
           ]
         }

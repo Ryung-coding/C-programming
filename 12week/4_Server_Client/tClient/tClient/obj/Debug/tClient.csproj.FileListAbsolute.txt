@@ -38,3 +38,13 @@ C:\Users\COM\Desktop\C-programming\12week\4_Server_Client\tClient\tClient\obj\De
 C:\Users\COM\Desktop\C-programming\12week\4_Server_Client\tClient\tClient\obj\Debug\tClient.csproj.CoreCompileInputs.cache
 C:\Users\COM\Desktop\C-programming\12week\4_Server_Client\tClient\tClient\obj\Debug\tClient.exe
 C:\Users\COM\Desktop\C-programming\12week\4_Server_Client\tClient\tClient\obj\Debug\tClient.pdb
+C:\Users\Master\Desktop\seoultech\C-programming\12week\4_Server_Client\tClient\tClient\bin\Debug\tClient.exe.config
+C:\Users\Master\Desktop\seoultech\C-programming\12week\4_Server_Client\tClient\tClient\bin\Debug\tClient.exe
+C:\Users\Master\Desktop\seoultech\C-programming\12week\4_Server_Client\tClient\tClient\bin\Debug\tClient.pdb
+C:\Users\Master\Desktop\seoultech\C-programming\12week\4_Server_Client\tClient\tClient\obj\Debug\tClient.csproj.AssemblyReference.cache
+C:\Users\Master\Desktop\seoultech\C-programming\12week\4_Server_Client\tClient\tClient\obj\Debug\tClient.Form1.resources
+C:\Users\Master\Desktop\seoultech\C-programming\12week\4_Server_Client\tClient\tClient\obj\Debug\tClient.Properties.Resources.resources
+C:\Users\Master\Desktop\seoultech\C-programming\12week\4_Server_Client\tClient\tClient\obj\Debug\tClient.csproj.GenerateResource.cache
+C:\Users\Master\Desktop\seoultech\C-programming\12week\4_Server_Client\tClient\tClient\obj\Debug\tClient.csproj.CoreCompileInputs.cache
+C:\Users\Master\Desktop\seoultech\C-programming\12week\4_Server_Client\tClient\tClient\obj\Debug\tClient.exe
+C:\Users\Master\Desktop\seoultech\C-programming\12week\4_Server_Client\tClient\tClient\obj\Debug\tClient.pdb

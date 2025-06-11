@@ -1,0 +1,10 @@
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P3_client\P3_client\bin\Debug\P3_client.exe.config
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P3_client\P3_client\bin\Debug\P3_client.exe
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P3_client\P3_client\bin\Debug\P3_client.pdb
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P3_client\P3_client\obj\Debug\P3_client.csproj.AssemblyReference.cache
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P3_client\P3_client\obj\Debug\P3_client.Form1.resources
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P3_client\P3_client\obj\Debug\P3_client.Properties.Resources.resources
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P3_client\P3_client\obj\Debug\P3_client.csproj.GenerateResource.cache
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P3_client\P3_client\obj\Debug\P3_client.csproj.CoreCompileInputs.cache
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P3_client\P3_client\obj\Debug\P3_client.exe
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P3_client\P3_client\obj\Debug\P3_client.pdb

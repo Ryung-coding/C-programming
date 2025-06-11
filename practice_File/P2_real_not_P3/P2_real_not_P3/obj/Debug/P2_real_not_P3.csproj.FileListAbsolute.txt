@@ -1,0 +1,10 @@
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_real_not_P3\P2_real_not_P3\bin\Debug\P2_real_not_P3.exe.config
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_real_not_P3\P2_real_not_P3\bin\Debug\P2_real_not_P3.exe
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_real_not_P3\P2_real_not_P3\bin\Debug\P2_real_not_P3.pdb
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_real_not_P3\P2_real_not_P3\obj\Debug\P2_real_not_P3.csproj.AssemblyReference.cache
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_real_not_P3\P2_real_not_P3\obj\Debug\P2_real_not_P3.Form1.resources
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_real_not_P3\P2_real_not_P3\obj\Debug\P2_real_not_P3.Properties.Resources.resources
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_real_not_P3\P2_real_not_P3\obj\Debug\P2_real_not_P3.csproj.GenerateResource.cache
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_real_not_P3\P2_real_not_P3\obj\Debug\P2_real_not_P3.csproj.CoreCompileInputs.cache
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_real_not_P3\P2_real_not_P3\obj\Debug\P2_real_not_P3.exe
+C:\Users\Master\Desktop\seoultech\C-programming\practice_File\P2_real_not_P3\P2_real_not_P3\obj\Debug\P2_real_not_P3.pdb
