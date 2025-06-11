@@ -20,4 +20,7 @@ namespace tServer
             InitializeComponent();
         }
     }
+
+    //아무거나 수정수정
+    int a = 0;
 }
